@@ -1,0 +1,6369 @@
+      /* data-href="/styles.40593e3e7c12a1e6f93e.css" */
+      :root {
+        tab-size: 4;
+      }
+
+      html {
+        -webkit-text-size-adjust: 100%;
+        line-height: 1.15;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+          Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+          Segoe UI Symbol;
+        margin: 0;
+      }
+      a,
+      address,
+      article,
+      aside,
+      b,
+      big,
+      body,
+      canvas,
+      caption,
+      center,
+      code,
+      details,
+      div,
+      dt,
+      em,
+      footer,
+      form,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      header,
+      html,
+      i,
+      iframe,
+      img,
+      label,
+      li,
+      menu,
+      object,
+      ol,
+      output,
+      p,
+      q,
+      s,
+      section,
+      small,
+      span,
+      strike,
+      strong,
+      sub,
+      summary,
+      table,
+      tbody,
+      td,
+      th,
+      thead,
+      time,
+      tr,
+      u,
+      ul,
+      var,
+      video {
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        margin: 0;
+        padding: 0;
+        vertical-align: baseline;
+      }
+      body {
+        line-height: 1;
+      }
+      ol,
+      ul {
+        list-style: none;
+      }
+      html {
+        box-sizing: border-box;
+      }
+      *,
+      :after,
+      :before {
+        box-sizing: inherit;
+      }
+      .block {
+        display: block !important;
+      }
+      .flex {
+        display: flex !important;
+      }
+      .d-inline-flex {
+        display: -ms-inline-flexbox !important;
+      }
+      .flex-row {
+        flex-direction: row !important;
+      }
+      .flex-column {
+        flex-direction: column !important;
+      }
+      .flex-wrap {
+        flex-wrap: wrap !important;
+      }
+      .justify-content-end {
+        justify-content: flex-end !important;
+      }
+      .justify-center {
+        justify-content: center !important;
+      }
+      .justify-between {
+        justify-content: space-between !important;
+      }
+      .align-items-start {
+        align-items: flex-start !important;
+      }
+      .align-center {
+        align-items: center !important;
+      }
+      .align-items-baseline {
+        align-items: baseline !important;
+      }
+      .align-self-center {
+        align-self: center !important;
+      }
+      @media (min-width: 992px) {
+        .flex-lg-row {
+          flex-direction: row !important;
+        }
+        .align-items-lg-center {
+          align-items: center !important;
+        }
+      }
+      .mt-0 {
+        margin-top: 0 !important;
+      }
+      .mb-0 {
+        margin-bottom: 0 !important;
+      }
+      .ml-0 {
+        margin-left: 0 !important;
+      }
+      .mt-1 {
+        margin-top: 0.25rem !important;
+      }
+      .mr-1,
+      .mx-1 {
+        margin-right: 0.25rem !important;
+      }
+      .mb-1 {
+        margin-bottom: 0.25rem !important;
+      }
+      .ml-1,
+      .mx-1 {
+        margin-left: 0.25rem !important;
+      }
+      .mt-2 {
+        margin-top: 0.5rem !important;
+      }
+      .mr-2 {
+        margin-right: 0.5rem !important;
+      }
+      .mb-2 {
+        margin-bottom: 0.5rem !important;
+      }
+      .ml-2 {
+        margin-left: 0.5rem !important;
+      }
+      .mt-3,
+      .my-3 {
+        margin-top: 1rem !important;
+      }
+      .mr-3 {
+        margin-right: 1rem !important;
+      }
+      .mb-3,
+      .my-3 {
+        margin-bottom: 1rem !important;
+      }
+      .ml-3 {
+        margin-left: 1rem !important;
+      }
+      .mt-4 {
+        margin-top: 1.5rem !important;
+      }
+      .mr-4 {
+        margin-right: 1.5rem !important;
+      }
+      .mb-4 {
+        margin-bottom: 1.5rem !important;
+      }
+      .ml-4 {
+        margin-left: 1.5rem !important;
+      }
+      .mt-5 {
+        margin-top: 3rem !important;
+      }
+      .mb-5 {
+        margin-bottom: 3rem !important;
+      }
+      .p-0 {
+        padding: 0 !important;
+      }
+      .py-0 {
+        padding-top: 0 !important;
+      }
+      .px-0 {
+        padding-right: 0 !important;
+      }
+      .pb-0,
+      .py-0 {
+        padding-bottom: 0 !important;
+      }
+      .pl-0,
+      .px-0 {
+        padding-left: 0 !important;
+      }
+      .p-1 {
+        padding: 0.25rem !important;
+      }
+      .pb-1 {
+        padding-bottom: 0.25rem !important;
+      }
+      .pt-2,
+      .py-2 {
+        padding-top: 0.5rem !important;
+      }
+      .pr-2,
+      .px-2 {
+        padding-right: 0.5rem !important;
+      }
+      .pb-2,
+      .py-2 {
+        padding-bottom: 0.5rem !important;
+      }
+      .px-2 {
+        padding-left: 0.5rem !important;
+      }
+      .pt-3,
+      .py-3 {
+        padding-top: 1rem !important;
+      }
+      .px-3 {
+        padding-right: 1rem !important;
+      }
+      .py-3 {
+        padding-bottom: 1rem !important;
+      }
+      .pl-3,
+      .px-3 {
+        padding-left: 1rem !important;
+      }
+      .pt-4,
+      .py-4 {
+        padding-top: 1.5rem !important;
+      }
+      .px-4 {
+        padding-right: 1.5rem !important;
+      }
+      .pb-4,
+      .py-4 {
+        padding-bottom: 1.5rem !important;
+      }
+      .px-4 {
+        padding-left: 1.5rem !important;
+      }
+      .pr-5 {
+        padding-right: 3rem !important;
+      }
+      .mr-auto,
+      .mx-auto {
+        margin-right: auto !important;
+      }
+      .mx-auto {
+        margin-left: auto !important;
+      }
+      @media (min-width: 768px) {
+        .mx-md-0 {
+          margin-left: 0 !important;
+          margin-right: 0 !important;
+        }
+        .ml-md-2 {
+          margin-left: 0.5rem !important;
+        }
+        .p-md-4 {
+          padding: 1.5rem !important;
+        }
+      }
+      @media (min-width: 992px) {
+        .mr-lg-5 {
+          margin-right: 3rem !important;
+        }
+        .pt-lg-0,
+        .py-lg-0 {
+          padding-top: 0 !important;
+        }
+        .py-lg-0 {
+          padding-bottom: 0 !important;
+        }
+        .pr-lg-5 {
+          padding-right: 3rem !important;
+        }
+      }
+      .text-center {
+        text-align: center;
+      }
+      .text-left {
+        text-align: left;
+      }
+      .text-right {
+        text-align: right;
+      }
+      :root {
+        --primaryColor: #40196d;
+        --lightBlueColor: #1dcbef;
+        --blackColor: #000;
+        --successColor: #48d38a;
+        --negativeColor: #f7685b;
+        --textColor: #979797;
+        --whiteColor: #fff;
+        --whiteAlt: #fff;
+        --darkAlt: #000;
+        --offWhite: #f9f9f9;
+        --offWhiteTrans: hsla(228, 7%, 87%, 0.3);
+        --borderOff: hsla(228, 7%, 87%, 0.5);
+        --offText: rgba(0, 0, 0, 0.5);
+        --bgOffset: #f4f4f4;
+        --placeHolder: #979797;
+        --offBlue: #eff1ff;
+        --boxShadow: rgba(64, 25, 109, 0.07);
+        --offBlueTran: rgba(223, 227, 255, 0.3);
+        --primaryAlt: #40196d;
+        --offGreen: rgba(72, 211, 138, 0.5);
+        --ctaOffBlue: rgba(64, 25, 109, 0.3);
+        --overlay: rgba(64, 25, 109, 0.2);
+        --successColorTrans: #dcffec;
+      }
+      .kuda-dark--theme {
+        --primaryColor: #40196d;
+        --lightBlueColor: #1dcbef;
+        --blackColor: #fff;
+        --successColor: #48d38a;
+        --negativeColor: #f7685b;
+        --textColor: #fff;
+        --whiteColor: #121212;
+        --whiteAlt: #181818;
+        --offWhite: hsla(228, 7%, 87%, 0.03);
+        --offWhiteTrans: hsla(228, 7%, 87%, 0.04);
+        --borderOff: hsla(228, 7%, 87%, 0.03);
+        --offText: hsla(0, 0%, 100%, 0.8);
+        --bgOffset: hsla(0, 0%, 96%, 0.04);
+        --placeHolder: hsla(0, 0%, 100%, 0.25);
+        --offBlue: #181818;
+        --boxShadow: rgba(64, 25, 109, 0.02);
+        --offBlueTran: hsla(228, 7%, 87%, 0.05);
+        --primaryAlt: #fff;
+        --offGreen: rgba(72, 211, 138, 0.1);
+        --ctaOffBlue: rgba(64, 25, 109, 0.1);
+        --overlay: rgba(0, 0, 0, 0.6);
+        --successColorTrans: rgba(72, 211, 138, 0.1);
+        background-color: var(--whiteColor) !important;
+      }
+      .kuda-dark--theme .react-loading-skeleton {
+        background-color: #222 !important;
+        background-image: linear-gradient(
+          90deg,
+          #222,
+          #242424,
+          #262626
+        ) !important;
+      }
+      .react-loading-skeleton {
+        background-color: #dbdce0 !important;
+        background-image: linear-gradient(
+          90deg,
+          #dbdce0,
+          #eee,
+          #ececec
+        ) !important;
+        display: block;
+      }
+      .no-border-skel {
+        border-left: none !important;
+      }
+      .no-border-skel .center--skel-item {
+        flex: 1 1;
+      }
+      .skel--item {
+        line-height: 0px !important;
+      }
+      * {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body,
+      html {
+        color: var(--textColor);
+        font-family: Muli, sans-serif;
+        font-size: 16px;
+      }
+      body::-webkit-scrollbar {
+        display: none;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      .faq-description {
+        font-size: 16px;
+        line-height: 24px;
+      }
+      b,
+      strong {
+        font-weight: 700;
+      }
+      .container {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+      }
+      @media (min-width: 576px) {
+        .container {
+          max-width: 540px;
+        }
+      }
+      @media (min-width: 768px) {
+        .container {
+          max-width: calc(100% - 25px);
+        }
+      }
+      @media (min-width: 992px) {
+        .container {
+          max-width: calc(100% - 25px);
+        }
+      }
+      @media (min-width: 1200px) {
+        .container {
+          max-width: 1180px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
+      }
+      h1 {
+        font-size: 2.375rem;
+        line-height: 1.2;
+      }
+      h2 {
+        font-size: 2rem;
+        line-height: 1.4;
+      }
+      h3 {
+        font-size: 1.8rem;
+      }
+      h3,
+      h4 {
+        line-height: 1.5;
+      }
+      h4 {
+        font-size: 1.42rem;
+      }
+      h5 {
+        font-size: 1.32rem;
+      }
+      h5,
+      h6 {
+        line-height: 1.5;
+      }
+      h6 {
+        font-size: 1.2rem;
+      }
+      p {
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+      .text-xl {
+        font-size: 3rem !important;
+        line-height: 1.15;
+      }
+      .text-lg-biz {
+        font-size: 2.5rem !important;
+        line-height: 1.15;
+      }
+      .text-md {
+        font-size: 2.15rem;
+        line-height: 1.4;
+      }
+      .text-sm {
+        font-size: 0.815rem !important;
+      }
+      .text-md-s {
+        font-size: 1.75rem;
+        line-height: 1.4;
+      }
+      .text-xs {
+        font-size: 0.69rem;
+      }
+      .text-subheading {
+        font-size: 1.13rem;
+        line-height: 1.5;
+      }
+      .text-normal {
+        font-weight: 400 !important;
+      }
+      .color-primary {
+        color: var(--primaryColor);
+      }
+      .color-negative {
+        color: var(--negativeColor);
+      }
+      .color-blue {
+        color: var(--lightBlueColor) !important;
+      }
+      .color-secondary {
+        color: var(--successColor) !important;
+      }
+      .color-white {
+        color: var(--whiteColor);
+      }
+      .color-black {
+        color: var(--blackColor) !important;
+      }
+      .color-default {
+        color: var(--textColor);
+      }
+      .text-semi-bold {
+        font-weight: 600;
+      }
+      .text-bold {
+        font-weight: 700 !important;
+      }
+      .text-xbold {
+        font-weight: 800;
+      }
+      .text-xlbold {
+        font-weight: 900;
+      }
+      .text-normal {
+        font-weight: 400;
+      }
+      button {
+        border: 0;
+        outline: none;
+      }
+      .disabled {
+        opacity: 0.45;
+      }
+      .kuda-cta {
+        background: var(--primaryColor);
+        border-radius: 4px;
+        border-radius: 10px;
+        color: var(--whiteColor);
+        height: 48px;
+      }
+      .kuda-cta,
+      .kuda-cta-outline {
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        font-size: 16px;
+        font-weight: 700;
+        justify-content: center;
+        line-height: 1;
+        padding: 15px;
+        transition: transform 0.6s;
+      }
+      .kuda-cta-outline {
+        background: var(--offWhite, #f9f9f9);
+        border: 1px solid rgba(64, 25, 109, 0.3);
+        border-radius: 4px;
+        border-radius: 6px;
+        color: var(--primaryColor, #40196d);
+        height: 46px;
+      }
+      .kuda-cta-v2 {
+        background-color: #dfe3ff;
+        border-color: #dfe3ff;
+        color: var(--primaryColor);
+      }
+      .kuda-header--wrap .kuda-cta,
+      .kuda-header--wrap .kuda-cta-outline {
+        height: 46px;
+        margin-left: 40px;
+        max-width: 136px;
+        min-width: 136px;
+      }
+      .addAction {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .kuda-cta-md {
+        max-width: 135px;
+        width: 100%;
+      }
+      .kuda-cta-lg {
+        max-width: 152px;
+        width: 100%;
+      }
+      .kuda-cta-long {
+        max-width: 242px;
+        width: 100%;
+      }
+      .careers-kuda-cta-long {
+        max-width: 200px;
+        width: 100%;
+      }
+      .kuda-cta-biz {
+        font-size: 0.875rem;
+        max-width: 170px;
+        width: 100%;
+      }
+      .kuda-cta-wide {
+        max-width: 100%;
+        width: 100%;
+      }
+      .bg-offwhite,
+      .kuda-cta-white {
+        background: var(--offWhite);
+      }
+      .kuda-cta-white {
+        border: 1px solid var(--ctaOffBlue);
+        border-radius: 10px;
+        color: var(--primaryColor);
+      }
+      a.dark-cta.cta_button {
+        display: flex;
+      }
+      .dark-cta {
+        align-items: center;
+        background: var(--darkAlt);
+        border: 1px solid var(--darkAlt);
+        border-radius: 10px;
+        color: var(--whiteAlt);
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 700;
+        height: 48px;
+        line-height: 1;
+        padding: 14px 20px;
+        transition: transform 0.6s;
+      }
+      .kuda-cta:hover {
+        transform: translate3d(0, -3px, 0);
+      }
+      .kuda-header {
+        background: var(--whiteAlt);
+        box-shadow: 0 4px 13px rgba(0, 0, 0, 0.05);
+        height: 70px;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 99;
+      }
+      .kuda-header--wrap {
+        display: block;
+        margin: 0 auto;
+        max-width: 1500px;
+        padding-left: 60px;
+        padding-right: 60px;
+      }
+      .kuda-nav--menu a,
+      .kuda-nav--menu p {
+        align-items: center;
+        color: var(--primaryColor);
+        display: flex;
+        font-size: 0.875rem;
+        font-weight: 700;
+      }
+      .kuda-nav--menu {
+        margin-right: 60px;
+      }
+      .kuda-nav {
+        font-size: 0.875rem;
+      }
+      .kuda-brand img {
+        height: 20px;
+        width: auto;
+      }
+      .kuda-brand {
+        min-width: 100px;
+      }
+      .kuda-menu--wrap {
+        margin-left: 15%;
+      }
+      img {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        user-select: none;
+      }
+      .column--100 {
+        width: 100%;
+      }
+      .kuda-preview {
+        margin-top: 70px;
+        padding: 70px 40px 63px;
+      }
+      @keyframes fadeInUp {
+        0% {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .fadeIn {
+        animation-duration: 0.3s !important;
+        animation-name: fadeIn;
+      }
+      .fadeInUp {
+        animation-name: fadeInUp;
+      }
+      body {
+        -webkit-backface-visibility: hidden;
+      }
+      .animated {
+        animation-duration: 0.8s;
+        animation-fill-mode: both;
+        position: relative;
+      }
+      .kuda-dark--theme .animated {
+        animation-fill-mode: none;
+      }
+      .kuda-transaction--tabs {
+        align-items: center;
+        background: var(--whiteAlt);
+        border: 1px solid var(--borderOff);
+        border-radius: 5px;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+        display: flex;
+        height: 52px;
+        justify-content: space-between;
+        margin-top: 35px;
+        min-height: 48px;
+        padding-left: 3px;
+        padding-right: 3px;
+      }
+      .kuda-transaction--tabs > li {
+        align-items: center;
+        color: var(--blackColor);
+        cursor: pointer;
+        display: flex;
+        font-size: 1rem;
+        font-weight: 600;
+        height: calc(100% + 2px);
+        justify-content: center;
+        min-width: 50%;
+        position: relative;
+      }
+      .kuda-transaction--tabs > li:after,
+      .link:after {
+        opacity: 0;
+        transition: opacity 1s;
+      }
+      .link.active:after {
+        background: var(--primaryColor);
+        border-radius: 5px;
+        bottom: 1px;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 0;
+        opacity: 1;
+        position: absolute;
+        width: 100%;
+      }
+      .positive {
+        color: var(--successColor);
+      }
+      .positive:before {
+        content: "+";
+      }
+      .kuda-preview {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transition: transform 0.8s;
+      }
+      .kuda-page--transition .kuda-preview {
+        min-height: calc(100vh - 120px);
+        transform: translateY(0) !important;
+      }
+      .back p {
+        align-items: center;
+        color: var(--primaryAlt);
+        display: flex;
+      }
+      .back img {
+        height: 14px;
+        margin-right: 10px;
+      }
+      .kuda-card--wrap {
+        background-color: var(--whiteAlt);
+        border: 1px solid var(--borderOff);
+        border-radius: 5px;
+        box-shadow: 0 30px 40px var(--boxShadow);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35px;
+        max-width: 380px;
+        padding: 35px 55px 43px;
+        padding: 45px 55px 43px;
+        position: relative;
+      }
+      .mobile-input {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        position: relative;
+      }
+      .formInput {
+        background: none;
+        border: 0;
+        border-bottom: 1px solid var(--offWhiteTrans);
+        border-radius: 0;
+        font-weight: 700;
+        outline: none;
+        padding-bottom: 15px;
+        padding-top: 13px;
+      }
+      .kuda-card--wrap {
+        max-width: 420px;
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+      .modal-backdrop {
+        align-items: center;
+        background: var(--overlay);
+        bottom: 0;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        left: 0;
+        left: 50%;
+        margin-left: -50vw;
+        padding: 65px 20px;
+        position: fixed;
+        right: 0;
+        top: 0;
+        transition: opacity 0.6s cubic-bezier(0.455, 0.03, 0, 1) !important;
+        visibility: hidden;
+        width: 100vw;
+        z-index: 999;
+      }
+      .modal-content {
+        background: var(--whiteAlt);
+        border: 1px solid var(--borderOff);
+        border-radius: 5px;
+        box-shadow: 15px 30px 40px var(--boxShadow);
+        max-width: 517px;
+        padding: 40px 48px 60px;
+        position: relative;
+        width: 100%;
+      }
+      .small-modal .modal-content {
+        max-width: 445px;
+      }
+      .closeModal {
+        cursor: pointer;
+        left: 10px;
+        position: absolute;
+        top: 12px;
+      }
+      .closeModal img {
+        opacity: 0.4;
+      }
+      input[type="number"]::-webkit-inner-spin-button,
+      input[type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      .accept {
+        margin: 45px 0 0;
+      }
+      .add-amount {
+        background: var(--whiteColor);
+        border: 1px solid var(--bgOffset);
+        border-radius: 5px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+        margin-top: 12px;
+        position: relative;
+      }
+      .amount-input {
+        background-color: var(--whiteColor);
+        border: none;
+        border-radius: 5px;
+        color: var(--blackColor);
+        height: 100%;
+        min-height: 46px;
+        outline: none;
+        padding: 9px 15px 9px 54px;
+        width: 100%;
+      }
+      .amount-input::placeholder {
+        color: var(--placeHolder) !important;
+        font-weight: 600;
+      }
+      .card-group:not(:last-child) {
+        margin-bottom: 28px;
+      }
+      input {
+        font-weight: 600;
+      }
+      .margin-bottom--spacer {
+        margin-bottom: 12px;
+      }
+      .kuda-form--layout {
+        margin-top: 32px;
+      }
+      .kuda-form--layout ::placeholder {
+        color: var(--placeHolder);
+      }
+      .login-button {
+        font-size: 1rem;
+        margin-top: 30px;
+      }
+      .kuda-inner--heading {
+        font-size: 1.75rem;
+      }
+      .normal-input {
+        padding-left: 15px;
+      }
+      .card-main--heading {
+        font-size: 1.25rem;
+        margin-bottom: 31px;
+      }
+      .card-main--heading-biz {
+        font-size: 1rem;
+        margin-bottom: 31px;
+      }
+      .avatar-wrap {
+        border: 1px solid var(--successColor);
+        border-radius: 100px;
+        height: 24px;
+        margin-right: 17px;
+        min-height: 24px;
+        min-width: 24px;
+        width: 24px;
+      }
+      .payment-wrap .kuda-card--wrap {
+        max-width: 533px;
+        padding-left: 57px;
+        padding-right: 57px;
+        padding-top: 40px;
+        position: relative;
+      }
+      .message-response {
+        margin: 0 auto;
+        max-width: 190px;
+        text-align: center;
+      }
+      .withdrawal-response {
+        max-width: 320px;
+      }
+      .withdrawal-illustration {
+        margin-bottom: 21px !important;
+        margin-top: 8px !important;
+      }
+      .kuda-modal-illustration {
+        display: flex;
+        justify-content: center;
+        margin: 27px auto 25px;
+      }
+      .toggle {
+        align-self: center;
+        box-sizing: border-box;
+        display: inline-block;
+        position: relative;
+        -webkit-user-select: none;
+        user-select: none;
+        vertical-align: middle;
+      }
+      .toggle input[type="checkbox"] {
+        display: none;
+      }
+      .toggle {
+        border-radius: 16px;
+        height: 32px;
+        height: 20px;
+        width: 52px;
+        width: 38px;
+      }
+      .payment-wrap .modal-backdrop {
+        margin-top: -300px;
+      }
+      .card-item {
+        background-color: var(--whiteColor);
+        border-radius: 5px;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.06);
+        padding: 22px 25px;
+      }
+      .card-label {
+        font-size: 14px;
+        line-height: 1.2;
+      }
+      .back-to {
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        font-size: 12px;
+        left: 30px;
+        position: absolute;
+        top: 25px;
+      }
+      .backArrow {
+        margin-right: 9px;
+      }
+      .backArrow img {
+        height: 11px;
+        position: relative;
+        top: 1px;
+        width: auto;
+      }
+      h5.text-xs {
+        font-size: 0.6rem;
+      }
+      .next {
+        left: auto;
+        right: 10px;
+      }
+      .kuda-hamburger {
+        display: inline-block;
+        height: auto;
+        position: relative;
+        top: 3px;
+        width: 23px;
+      }
+      .kuda-hamburger .kuda-hamburger--inner {
+        transition-duration: 75ms;
+        transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+      }
+      .kuda-hamburger .kuda-hamburger--inner:after,
+      .kuda-hamburger .kuda-hamburger--inner:before {
+        background-color: var(--primaryAlt);
+        border-radius: 4px;
+        content: "";
+        display: block;
+        height: 2px;
+        position: absolute;
+        transition-duration: 0.15s;
+        transition-property: transform;
+        transition-timing-function: ease;
+        width: 20px;
+      }
+      .kuda-hamburger .kuda-hamburger--inner:before {
+        top: -9px;
+        transition: top 75ms ease 0.12s, opacity 75ms ease;
+      }
+      .form-loading {
+        align-items: center !important;
+        display: flex !important;
+        justify-content: center !important;
+        opacity: 0.8;
+        pointer-events: none;
+        position: relative;
+      }
+      .form-loading span {
+        opacity: 0;
+        visibility: hidden;
+      }
+      .kuda-cta span {
+        pointer-events: none;
+      }
+      .form-loading:after {
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBkaXNwbGF5PSJibG9jayIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQiIHN0eWxlPSJtYXJnaW46YXV0bztiYWNrZ3JvdW5kOjAgMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiPjxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjMyIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS1kYXNoYXJyYXk9IjUwLjI2NSA1MC4yNjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSI4IiB0cmFuc2Zvcm09InJvdGF0ZSgzMTEuOTY3IDUwIDUwKSI+PGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiBkdXI9IjAuNzJzIiBrZXlUaW1lcz0iMDsxIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgdHlwZT0icm90YXRlIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIi8+PC9jaXJjbGU+PC9zdmc+");
+        background-size: 30px 30px;
+        content: "";
+        display: inline-block;
+        height: 30px;
+        position: absolute;
+        width: 30px;
+      }
+      .no-border {
+        border: none;
+      }
+      iframe {
+        background: none !important;
+        min-height: 580px;
+        width: 100%;
+      }
+      .loading {
+        position: relative;
+      }
+      .loading,
+      .loading:after {
+        align-items: center;
+        justify-content: center;
+      }
+      .loading:after {
+        animation: spin 1s linear infinite;
+        border: 3px solid hsla(0, 0%, 100%, 0.3);
+        border-radius: 50%;
+        border-top-color: #fff;
+        content: "";
+        display: flex;
+        height: 35px;
+        margin: auto;
+        width: 35px;
+      }
+      @keyframes spin {
+        to {
+          transform: rotate(1turn);
+        }
+      }
+      .backdrop-init .modal-backdrop {
+        visibility: visible;
+      }
+      .react-datepicker__day.react-datepicker__day--selected {
+        color: #fff !important;
+      }
+      .kuda-split--wrap {
+        display: flex;
+        justify-content: space-between;
+      }
+      .kuda-split--wrap > div {
+        width: calc(50% - 6px);
+      }
+      .panel__label {
+        color: #40196d;
+        cursor: pointer;
+        display: flex;
+        font-size: 1.2rem;
+        font-weight: 600;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        padding: 0;
+        text-align: left;
+        width: 100%;
+      }
+      .panel__content {
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        padding-bottom: 25px;
+      }
+      .panel[aria-expanded="true"] .panel__content {
+        max-height: 570vh;
+        opacity: 1;
+        transition: opacity 0.8s, max-height 2s;
+        white-space: pre-line;
+      }
+      .panel__label svg {
+        transition: all 0.4s;
+      }
+      .panel[aria-expanded="true"] .panel__label svg {
+        transform: rotate(90deg);
+      }
+      .card-group .message {
+        opacity: 0;
+        transition: opacity 1s;
+      }
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .panel__label span {
+        line-height: 1.35;
+      }
+      a.link {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        width: 100%;
+      }
+      .error-message {
+        max-width: 300px;
+      }
+      .kuda-loader--wrap {
+        display: flex;
+        justify-content: center;
+      }
+      .spinner-wrap {
+        background: #fff;
+        border: 1px solid var(--borderOff);
+        border-radius: 100px;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+        height: 38px;
+        opacity: 1 !important;
+        padding: 7px;
+        position: relative;
+        top: 0;
+        -webkit-transform: translateX(-50%) !important;
+        -moz-transform: translateX(-50%) !important;
+        -ms-transform: translateX(-50%) !important;
+        -o-transform: translateX(-50%) !important;
+        transform: none !important;
+        transition: none !important;
+        -webkit-transition: none !important;
+        -moz-transition: none !important;
+        -ms-transition: none !important;
+        -o-transition: none !important;
+        width: 38px;
+      }
+      .spinner {
+        color: var(--primaryColor);
+        display: block;
+        height: 22px;
+        width: 22px;
+      }
+      .spinner:after {
+        animation: rotate 0.75s linear infinite;
+        background: transparent;
+        border: 2px solid;
+        border-bottom: 2px solid transparent;
+        border-radius: 100%;
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+      }
+      @keyframes rotate {
+        to {
+          transform: rotate(359deg);
+        }
+      }
+      @keyframes dash {
+        0% {
+          stroke-dasharray: 1, 250;
+          stroke-dashoffset: 0;
+        }
+        50% {
+          stroke-dasharray: 89, 200;
+          stroke-dashoffset: -35;
+        }
+        to {
+          stroke-dasharray: 89, 200;
+          stroke-dashoffset: -140;
+        }
+      }
+      .margin-bottom--spacer-sm {
+        margin-bottom: 23px;
+      }
+      .kuda-entry {
+        -webkit-overflow-scrolling: touch;
+        height: 100%;
+        overflow-x: hidden;
+      }
+      .copy span,
+      .copy svg {
+        cursor: copy;
+      }
+      .closeMenu {
+        animation-delay: 0.35s;
+        animation-duration: 0.8s !important;
+        position: absolute;
+        right: 25px;
+        top: 24px;
+        z-index: 1;
+      }
+      .text-center br {
+        content: "";
+        display: block;
+        font-size: 24%;
+        margin: 2em;
+      }
+      @keyframes fadein {
+        0% {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .bottom-spacer {
+        margin-bottom: 29px;
+      }
+      .bottom-spacer--sm {
+        margin-bottom: 7px;
+      }
+      .infinite-path {
+        background-color: #f7f7f7;
+        border-radius: 10px;
+        height: 3px;
+        margin: 65px auto 40px;
+        max-width: 280px;
+        overflow: hidden;
+        position: relative;
+        width: 280px;
+      }
+      .shape {
+        animation: ani 1.7s infinite;
+        animation-delay: 1s;
+        background-color: #40196d;
+        display: block;
+        height: 3px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        transition: all 1s ease-in-out;
+        width: 100px;
+      }
+      @keyframes ani {
+        0% {
+          left: -70px;
+        }
+        50% {
+          left: 250px;
+        }
+        to {
+          left: -70px;
+        }
+      }
+      .kuda-inner--heading {
+        margin-bottom: 20px;
+      }
+      .back p > span {
+        display: flex;
+      }
+      .kuda-footer--conditions p {
+        font-size: 12px;
+      }
+      .kuda-socials img {
+        border-radius: 100px;
+        box-shadow: 15px 30px 40px rgba(64, 25, 109, 0.07);
+      }
+      .kuda-socials li a {
+        height: 100%;
+        margin-right: 15px;
+      }
+      .kuda-socials li {
+        align-items: center;
+        display: flex;
+      }
+      .coming-soon--downloads img {
+        height: 35px;
+        margin-right: 10px;
+        opacity: 0.2;
+        width: auto;
+      }
+      .coming-soon {
+        color: #000;
+        font-size: 15px;
+      }
+      footer .container {
+        max-width: 1180px;
+        padding-left: 60px;
+        padding-right: 60px;
+      }
+      .available {
+        opacity: 1 !important;
+      }
+      footer {
+        border-top: 1px solid rgba(223, 227, 255, 0.5);
+        margin-top: 80px;
+      }
+      .anonymous {
+        -webkit-touch-callout: none;
+        border-bottom: 1px solid #40196d;
+        cursor: pointer;
+        padding-bottom: 1px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        -webkit-user-select: none;
+        user-select: none;
+      }
+      .card-group {
+        position: relative;
+      }
+      [value="Anonymous"] {
+        color: #979797;
+      }
+      .kuda-main--wrap {
+        max-width: 450px;
+      }
+      .kuda-cta--section .kuda-main--wrap {
+        max-width: 423px;
+      }
+      .kuda-cta--section .kuda-main--wrap.biz {
+        max-width: unset;
+      }
+      .title-bottom--spacing {
+        margin-bottom: 20px;
+      }
+      .bottom--spacing {
+        margin-bottom: 32px;
+      }
+      .bottom--spacing--md {
+        margin-bottom: 40px;
+      }
+      .bottom--spacing--lg {
+        margin-bottom: 8%;
+      }
+      .single-badge {
+        display: inline-flex;
+        transition: transform 0.6s;
+      }
+      .single-badge:not(:last-child) {
+        margin-right: 11px;
+      }
+      .single-badge svg {
+        height: 40px;
+        width: auto;
+      }
+      .single-license:not(:last-child) {
+        margin-right: 16px;
+      }
+      .kuda-below--fold {
+        margin-top: 50px;
+      }
+      .summary-top .card {
+        width: calc(33.33% - 13px);
+      }
+      .summary-bottom {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+      }
+      .summary-bottom .card {
+        width: calc(33.33% - 13px);
+      }
+      .summary-bottom .card:not(:last-child) {
+        margin-right: 20px;
+      }
+      .card-icon--spacing {
+        margin-bottom: 15px;
+      }
+      .card-item p {
+        font-size: 0.975rem;
+      }
+      .card-item .text-xs {
+        font-size: 0.69rem;
+      }
+      .kuda-section {
+        margin-top: 12.5%;
+      }
+      .kuda-section--heading {
+        font-size: 2.25rem;
+        line-height: 1.38;
+      }
+      .kuda-section--wrap {
+        max-width: 420px;
+      }
+      .kuda-section--illustration img,
+      .kuda-section--illustration svg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto !important;
+      }
+      .kuda-section--illustration .your-money--illustration,
+      .kuda-section--illustration svg.kuda-phoneDebit--illustration {
+        height: auto !important;
+        max-width: 500px;
+        width: 100% !important;
+      }
+      .kuda-section--50 {
+        width: 50%;
+      }
+      .kuda-section--40 {
+        width: 40%;
+      }
+      .kuda-section--45 {
+        width: 45%;
+      }
+      .kuda-section--42 {
+        width: 42%;
+      }
+      .kuda-gifts-section {
+        width: 50%;
+      }
+      .kuda-section--55 {
+        width: 55%;
+      }
+      .kuda-section--60 {
+        width: 60%;
+      }
+      .kuda-section--58 {
+        width: 58%;
+      }
+      .not-centered img,
+      .not-centered img {
+        margin: 0;
+      }
+      .inApp-contact-ways--wrap {
+        max-width: 700px;
+      }
+      .inApp-contact-ways--wrap .kuda-below--inner {
+        margin-top: 40px;
+      }
+      .kuda-section--max {
+        max-width: 350px;
+      }
+      .airtime-section--max {
+        max-width: 390px;
+      }
+      .identification--max {
+        max-width: none;
+      }
+      .kuda-text--right .kuda-section--wrap {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .learn-more span {
+        display: inline-flex;
+      }
+      .learn-more {
+        cursor: pointer;
+        display: inline-flex !important;
+        font-weight: 700;
+        margin-top: 26px;
+        text-decoration: underline;
+      }
+      .arrow-right--icon {
+        margin-left: 10px;
+      }
+      .kuda-ignore--container {
+        left: 50%;
+        margin-left: -50vw;
+        position: relative;
+        width: 100vw;
+      }
+      .kuda-testimonial--cards {
+        animation: nonStop 120s linear 0s infinite normal none running;
+        -webkit-animation: nonStop 120s linear 0s infinite normal none running;
+        display: flex;
+        margin-top: 55px;
+        min-width: 2800px;
+        transform: translateZ(0);
+      }
+      @keyframes nonStop {
+        to {
+          transform: translate3d(-100%, 0, 0);
+        }
+      }
+      .kuda-testimonial--cards .card {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        min-width: 350px;
+      }
+      .kuda-section--inner {
+        transform: translateZ(0);
+      }
+      .testimonial-extras img {
+        border-radius: 100px;
+        height: 50px !important;
+        width: 50px;
+      }
+      .testimonial-extras {
+        margin-top: 32px;
+      }
+      .testimonial-extras p {
+        margin-left: 10px !important;
+      }
+      .kuda-testimonials--section {
+        max-width: 100vw;
+      }
+      .kuda-publication--wrap {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1500px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 6%;
+        width: 100%;
+      }
+      .publication-image:not(:last-child) {
+        margin-right: 30px;
+      }
+      .publication-image img {
+        cursor: pointer;
+        filter: contrast(100%) grayscale(100%) brightness(120%);
+        -webkit-filter: contrast(100%) grayscale(100%) brightness(120%);
+        transition: filter 0.2s;
+        -webkit-transition: filter 0.2s;
+        -moz-transition: filter 0.2s;
+        -ms-transition: filter 0.2s;
+        -o-transition: filter 0.2s;
+        width: auto;
+      }
+      .partners-image img,
+      .publication-image img:hover {
+        filter: none;
+        -webkit-filter: none;
+      }
+      .partners-image img {
+        cursor: pointer;
+        transition: filter 0.2s;
+        -webkit-transition: filter 0.2s;
+        -moz-transition: filter 0.2s;
+        -ms-transition: filter 0.2s;
+        -o-transition: filter 0.2s;
+      }
+      .partners-image img:hover {
+        filter: contrast(100%) grayscale(100%) brightness(120%);
+        -webkit-filter: contrast(100%) grayscale(100%) brightness(120%);
+      }
+      .kuda-partners--wrap {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        max-width: 840px;
+      }
+      .kuda-section--bg {
+        background: #fbfbfb;
+        margin-top: 7%;
+        padding-bottom: 7%;
+        padding-top: 8%;
+      }
+      .kuda-partner--three {
+        margin-bottom: 40px;
+        margin-top: 74px;
+        max-width: 970px;
+      }
+      .partners-image {
+        align-items: center;
+        display: flex;
+      }
+      .kuda-standard--section {
+        margin-top: 0;
+        padding-top: 8%;
+      }
+      .plan {
+        background: #fff;
+        border: 1px solid hsla(228, 7%, 87%, 0.5);
+        border-radius: 5px;
+        box-shadow: 15px 30px 40px rgba(64, 25, 109, 0.07);
+        max-width: 375px;
+        padding: 50px;
+        width: 100%;
+      }
+      .plan:not(:last-child) {
+        margin-right: 20px;
+      }
+      .kuda-plan--blue {
+        background: #40196d;
+        border: 1px solid hsla(228, 7%, 87%, 0.5);
+        box-shadow: 15px 30px 40px rgba(64, 25, 109, 0.4);
+      }
+      .kuda-plan--blue * {
+        color: #fff;
+      }
+      .plan-details {
+        margin-top: 40px;
+      }
+      .pricing-details {
+        margin-top: 0 !important;
+      }
+      .kuda-plan--wrap {
+        margin-top: 55px;
+      }
+      .check-icon {
+        display: flex;
+        margin-right: 10px;
+        position: relative;
+        top: 4px;
+      }
+      .feature-summary {
+        margin-bottom: 13px;
+      }
+      .plan-heading .card-main--heading {
+        margin-bottom: 23px;
+      }
+      .kuda-cta--section {
+        background: #eff1ff;
+        border: 1px solid hsla(228, 7%, 87%, 0.5);
+        border-radius: 5px;
+        box-shadow: 15px 30px 40px rgba(64, 25, 109, 0.07);
+        overflow: hidden;
+        padding: 60px 88px 76px;
+        position: relative;
+      }
+      .kuda-cta-dark-section {
+        background: #fff5db !important;
+      }
+      .kuda-cta-dark-section-demo {
+        background: var(--darkAlt) !important;
+        border-radius: 20px;
+        height: 421px;
+      }
+      .kuda-cta-dark-section-demo .biz-float--right {
+        position: absolute;
+        right: 0;
+      }
+      .kuda-cta-dark-section-demo .biz-float--bottom {
+        bottom: 0;
+        position: absolute;
+      }
+      .cta-business-illustration img,
+      .cta-illustration img {
+        bottom: -105px;
+        height: auto;
+        min-width: 435px;
+        position: absolute;
+        right: 40px;
+        width: 40%;
+      }
+      .cta-business-illustration img,
+      .cta-illustration.biz img {
+        height: auto;
+        min-width: 435px;
+        position: absolute;
+        right: 0;
+        top: -10px;
+        width: 40%;
+      }
+      .kuda-cta--section .kuda-section--heading {
+        margin-bottom: 10px;
+      }
+      @keyframes text {
+        0% {
+          opacity: 0;
+          transform: translate3d(0, 20px, 0);
+          -webkit-transform: translate3d(0, 20px, 0);
+          -moz-transform: translate3d(0, 20px, 0);
+          -ms-transform: translate3d(0, 20px, 0);
+          -o-transform: translate3d(0, 20px, 0);
+        }
+        to {
+          opacity: 1;
+          transform: translateZ(0);
+          -webkit-transform: translateZ(0);
+          -moz-transform: translateZ(0);
+          -ms-transform: translateZ(0);
+          -o-transform: translateZ(0);
+        }
+      }
+      .kuda-preview > div > * {
+        opacity: 0;
+        transform: translate3d(0, 35px, 0);
+        -webkit-transform: translate3d(0, 35px, 0);
+        -moz-transform: translate3d(0, 35px, 0);
+        -ms-transform: translate3d(0, 35px, 0);
+        -o-transform: translate3d(0, 35px, 0);
+        transition: opacity 0.7s cubic-bezier(0.47, 0, 0.745, 0.715),
+          transform 1.3s;
+        -webkit-transition: opacity 0.7s cubic-bezier(0.47, 0, 0.745, 0.715),
+          transform 1.3s;
+        -moz-transition: opacity 0.7s cubic-bezier(0.47, 0, 0.745, 0.715),
+          transform 1.3s;
+        -ms-transition: opacity 0.7s cubic-bezier(0.47, 0, 0.745, 0.715),
+          transform 1.3s;
+        -o-transition: opacity 0.7s cubic-bezier(0.47, 0, 0.745, 0.715),
+          transform 1.3s;
+      }
+      .fade-active > * {
+        opacity: 1 !important;
+        transform: translateZ(0) !important;
+        -webkit-transform: translateZ(0) !important;
+        -moz-transform: translateZ(0) !important;
+        -ms-transform: translateZ(0) !important;
+        -o-transform: translateZ(0) !important;
+      }
+      .fade-active > *,
+      .kuda-preview > div:not(:first-child) > *,
+      .kuda-preview > div:not(:nth-child(2)) > * {
+        transition-delay: 0ms !important;
+      }
+      .kuda-footer {
+        padding-top: 5% !important;
+      }
+      .kuda-footer--col {
+        width: 20%;
+      }
+      .kuda-footer--nav {
+        display: flex;
+      }
+      .kuda-footer--col:not(:last-child) {
+        margin-right: 30px;
+      }
+      .kuda-footer--menu li {
+        font-size: 0.875rem;
+        line-height: 1.3;
+      }
+      .kuda-footer--menu li:not(:last-child) {
+        margin-bottom: 20px;
+      }
+      .kuda-footer--menu {
+        margin-top: 20px;
+      }
+      .coming-soon--downloads {
+        gap: 10px;
+        margin-top: 4.5rem;
+      }
+      .link-decoration {
+        text-decoration: underline;
+      }
+      .information-col {
+        width: 33.33%;
+      }
+      .footer-contact--information {
+        display: flex;
+        justify-content: space-between;
+        margin: 4.3rem 0;
+      }
+      .information-col:not(:last-child) {
+        margin-right: 30px;
+      }
+      .kuda-socials {
+        margin-top: 23px;
+      }
+      .other-info {
+        margin-top: 15px;
+      }
+      .other-info p {
+        font-size: 0.875rem;
+        max-width: 200px;
+      }
+      .kuda-business-illustration--center,
+      .kuda-illustration--center {
+        display: flex;
+        justify-content: center;
+      }
+      .kuda-entry--inner:not(.kuda-cta--section) {
+        min-height: 540px;
+        overflow: hidden;
+      }
+      .plan-full {
+        background: #fff;
+        border: 1px solid hsla(228, 7%, 87%, 0.5);
+        border-radius: 5px;
+        box-shadow: 15px 30px 40px rgba(64, 25, 109, 0.07);
+        width: 100%;
+      }
+      .plan-single--wrap {
+        display: flex;
+      }
+      .plan-single--wrap,
+      .pricing-single--wrap {
+        border-top: 1px solid hsla(228, 7%, 87%, 0.5);
+        padding-left: 72px;
+        padding-right: 72px;
+        padding-top: 13px;
+      }
+      .pricing-single--wrap {
+        width: 100%;
+      }
+      .document-single--wrap {
+        border-top: 1px solid hsla(228, 7%, 87%, 0.5);
+        display: flex;
+        padding-left: 72px;
+        padding-right: 72px;
+        padding-top: 13px;
+      }
+      .plan-full .plan-single {
+        width: 33.33%;
+      }
+      .first-document:first-child {
+        border-top: none;
+        color: red;
+      }
+      .plan-heading.flex {
+        padding-left: 72px;
+        padding-right: 72px;
+      }
+      .feature-text img {
+        transform: translateY(1.1px);
+      }
+      .plan-full .plan-features {
+        padding-right: 0;
+      }
+      .plan-features {
+        margin-bottom: 50px;
+      }
+      .document-single .card-main--heading,
+      .plan-single .card-main--heading {
+        margin-bottom: 20px;
+      }
+      .kuda-no--image {
+        align-items: center;
+        background: #40196d;
+        border-radius: 100px;
+        color: #fff;
+        display: flex;
+        font-size: 1.5rem;
+        font-weight: 900;
+        height: 50px;
+        justify-content: center;
+        width: 50px;
+      }
+      .kuda-mobile--get {
+        align-items: center;
+        background-color: #eff1ff;
+        bottom: 0;
+        display: none;
+        height: 80px;
+        justify-content: space-between;
+        left: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: fixed;
+        right: 0;
+        width: 100%;
+        z-index: 9;
+      }
+      .kuda-app--badge img {
+        border-radius: 11px;
+        box-shadow: 0 4px 5px rgba(64, 25, 109, 0.3);
+      }
+      .no-margin--bottom {
+        margin-bottom: 0 !important;
+      }
+      .kuda-star--wrap {
+        display: flex;
+        margin-top: 6px;
+      }
+      .kuda-app--badge {
+        display: flex;
+      }
+      .kuda-app--name {
+        font-size: 1.15rem;
+        line-height: 1;
+      }
+      .kuda-app--stars {
+        margin-left: 16px;
+      }
+      .kuda-mobile--get .kuda-cta {
+        font-size: 13px;
+        height: 40px;
+      }
+      .mobile-toggle {
+        display: none;
+        height: 20px;
+        width: 23px;
+      }
+      .hasAnimation [aria-label="animation"] {
+        overflow: visible !important;
+        pointer-events: none;
+      }
+      .hasAnimation {
+        margin-top: -12px;
+        position: relative;
+      }
+      .kuda-phone--illustration {
+        bottom: 0;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+      }
+      .kuda-phone--illustration img {
+        height: auto !important;
+        margin: auto;
+        position: relative;
+        top: -11px;
+        width: calc(100% - 100px) !important;
+      }
+      .kuda-phone--illustration > div {
+        display: flex;
+      }
+      .kuda-hide,
+      .kuda-hide > div {
+        opacity: 0 !important;
+        visibility: hidden !important;
+      }
+      .kuda-hide > div {
+        display: none !important;
+        height: 0 !important;
+        max-height: 0 !important;
+        overflow: hidden;
+      }
+      .kuda-illustration--center .isImage,
+      .kuda-illustration--center img {
+        max-height: 435px;
+        max-width: 560px !important;
+        width: auto;
+      }
+      .kuda-business-illustration--center img {
+        max-height: 523px;
+        max-width: 526px;
+        width: auto;
+      }
+      .kuda-story--wrap .kuda-section--max {
+        max-width: 600px;
+      }
+      .kuda-story--section {
+        margin-top: -3%;
+      }
+      .kuda-team--member {
+        border: 1px solid hsla(228, 7%, 87%, 0.5);
+        border-radius: 400px;
+        box-shadow: 15px 30px 40px rgba(64, 25, 109, 0.07);
+        height: 256px;
+        object-fit: cover;
+        width: 256px;
+      }
+      .kuda-team {
+        margin-bottom: -3%;
+        margin-top: 10%;
+      }
+      .kuda-profile--wrap:not(:last-child) {
+        margin-right: 85px;
+      }
+      .kuda-disclaimer--section {
+        margin-top: 30px;
+      }
+      .disclaimer-text-small {
+        font-size: 11px;
+        line-height: 15px;
+      }
+      .color-grey {
+        color: #979797;
+      }
+      .diclaimer-list li {
+        line-height: 1.4;
+        list-style-type: disc;
+        margin-left: 22px;
+        text-align: left;
+      }
+      ol.ordered-list {
+        list-style: auto !important;
+      }
+      ol.ordered-list li {
+        margin-left: 22px;
+        text-align: left;
+      }
+      .inner-spotlight--heading .kuda-section--heading {
+        text-align: left;
+      }
+      .inner-spotlight--heading {
+        padding-bottom: 80px;
+      }
+      .has-heading--divider.kuda-section--heading {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 500px;
+      }
+      .has-heading--divider.inner-spotlight--heading {
+        border-bottom: 1px solid rgba(223, 227, 255, 0.5);
+      }
+      .kuda-disclaimer--section .kuda-section--heading {
+        font-size: 1.8rem;
+      }
+      .kuda-spacing--inner:not(:nth-child(2)) {
+        margin-top: 50px;
+      }
+      .kuda-profile--wrap {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .kuda-profile--item {
+        margin-top: 25px;
+        text-align: center;
+      }
+      .kuda-table table td,
+      .kuda-table table th {
+        border-top: 1px solid #dfe2e5;
+        color: #000;
+        font-size: 0.875rem;
+        font-weight: 500;
+        padding: 14px 20px;
+        text-align: left;
+        vertical-align: initial;
+      }
+      .kuda-table {
+        border: 1px solid #dfe2e5;
+        border-radius: 4px;
+      }
+      .kuda-table table {
+        width: 100%;
+      }
+      .kuda-table thead tr {
+        background: #ece8f0;
+      }
+      .kuda-table thead tr td,
+      .kuda-table thead tr th {
+        border-top: 0;
+      }
+      .kuda-table thead td,
+      .kuda-table thead th {
+        color: #000;
+        font-weight: 800;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        text-align: left;
+        vertical-align: initial;
+      }
+      .number-list li {
+        list-style-type: decimal !important;
+      }
+      .no-bullet {
+        list-style: none;
+        padding-left: 0;
+      }
+      .no-bullet li {
+        line-height: 1.4;
+        list-style-type: none;
+        padding-left: 0;
+        text-align: left;
+      }
+      .no-bullet li:not(last-child) {
+        margin-bottom: 10px;
+      }
+      .kuda-section--100 li,
+      .kuda-section--100 p {
+        text-align: justify;
+      }
+      .kuda-section--100 span {
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+      .alpha-list li {
+        list-style-type: lower-alpha !important;
+        margin-left: 35px !important;
+      }
+      .dropdown-menu {
+        left: 0;
+        opacity: 0;
+        top: 44px !important;
+        visibility: hidden;
+      }
+      .dropdown-menu,
+      .modal-menu {
+        display: block !important;
+        padding-top: 0;
+        position: absolute;
+        transition-delay: 1s !important;
+        transition: opacity 0.5s cubic-bezier(0.455, 0.03, 0, 1),
+          top 0.5s cubic-bezier(0.455, 0.03, 0, 1) !important;
+        width: max-content;
+      }
+      .modal-menu {
+        opacity: 1;
+        right: 0;
+        top: 0 !important;
+        visibility: visible;
+        z-index: 9999;
+      }
+      [data-toggle="dropdown"]:hover .dropdown-menu {
+        opacity: 1;
+        top: 38px !important;
+        visibility: visible;
+      }
+      .kuda-dropdown--menu {
+        background: #fff;
+        border: 1px solid hsla(228, 7%, 87%, 0.5);
+        border-radius: 5px;
+        box-shadow: 15px 30px 40px rgba(64, 25, 109, 0.07);
+        padding: 20px 0;
+        white-space: nowrap;
+      }
+      .drop-min--width {
+        min-width: 230px;
+      }
+      .kuda-nav--menu {
+        position: relative;
+      }
+      li.kuda-nav--menu {
+        min-width: 80px;
+      }
+      .kuda-dropdown--menu li .menu-link {
+        align-items: center;
+        border-radius: 5px;
+        color: #000;
+        display: inline-flex;
+        font-size: 0.875rem !important;
+        font-weight: 500;
+        padding: 10px 0;
+      }
+      .kuda-dropdown--menu li .menu-link.disabled {
+        opacity: 0.4;
+      }
+      .kuda-dropdown--menu li {
+        margin: 0 !important;
+        padding: 0 26px;
+      }
+      .menu-state--active .dropdown-menu {
+        opacity: 0 !important;
+        top: 44px !important;
+        visibility: hidden !important;
+      }
+      [data-toggle="dropdown"] > .no-link,
+      [data-toggle="dropdown"] > a {
+        cursor: pointer;
+        height: 40px;
+      }
+      .dropDown {
+        margin-left: 7px;
+      }
+      .coming-soon {
+        background: #fff;
+        border: 1px solid #dfe3ff;
+        border-radius: 4px;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.06);
+        color: #40196d;
+        font-size: 10px;
+        font-weight: 700;
+        margin-left: 9px;
+        padding: 4px 5px;
+      }
+      .menu-link--icon img {
+        height: 25px;
+        width: 25px;
+      }
+      .menu-link--icon {
+        display: flex;
+        margin-right: 15px;
+      }
+      .blur {
+        filter: blur(8px);
+        filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius="8");
+      }
+      .kuda-inner--section {
+        margin-top: 4%;
+      }
+      .kuda-single--press {
+        background: #fff;
+        border-radius: 4px;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.06);
+        overflow: hidden;
+      }
+      .kuda-press--image img {
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+      }
+      .kuda-press--wrap {
+        padding: 25px;
+      }
+      .kuda-press--publication {
+        align-items: center;
+        background: #dfe3ff;
+        border-radius: 4px;
+        color: #40196d;
+        display: flex;
+        font-size: 0.8125rem;
+        height: 26px;
+        line-height: 1;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .kuda-press--date {
+        color: #000;
+        font-size: 0.875rem;
+      }
+      .kuda-press--details {
+        margin-top: 15px;
+      }
+      .kuda-press--heading {
+        font-size: 1.25rem;
+        margin-bottom: 9px;
+      }
+      .kuda-single--press {
+        margin-bottom: 40px;
+        max-width: calc(50% - 20px);
+      }
+      .kuda-press--image {
+        height: 220px;
+      }
+      .kuda-press--cards {
+        margin-bottom: -6%;
+      }
+      img {
+        -webkit-user-drag: none;
+        -khtml-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        user-drag: none;
+      }
+      .kuda-cta--section {
+        margin-top: -3%;
+      }
+      .kuda-reset--card {
+        background: #fff;
+        border: 1px solid hsla(228, 7%, 87%, 0.5);
+        border-radius: 5px;
+        box-shadow: 15px 30px 40px rgba(64, 25, 109, 0.07);
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 480px;
+        padding: 50px;
+      }
+      .disabled {
+        opacity: 0.7;
+        pointer-events: none;
+      }
+      .auth-header p {
+        font-size: 0.925rem;
+      }
+      .kuda-card--wrap {
+        max-width: 533px;
+        padding: 56px 77px;
+      }
+      .kuda-text--top {
+        margin-top: 12px;
+        max-width: 320px;
+      }
+      .kuda-buttons,
+      .kuda-text--top {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .kuda-buttons {
+        margin-top: 35px;
+        max-width: 198px !important;
+      }
+      .payment-profile--layout {
+        margin-top: 28px;
+      }
+      .kuda-reset--password .kuda-card--wrap {
+        margin-top: 0 !important;
+      }
+      .error-auth--label {
+        align-items: center;
+        background: #ffdbdb;
+        border-radius: 5px;
+        display: flex;
+        margin-bottom: 20px;
+        margin-top: -10px;
+        padding: 12px 20px;
+      }
+      .error-auth--label span {
+        display: inline-flex;
+      }
+      .auth-error-text {
+        color: #f7685b;
+        font-size: 0.8rem;
+        font-weight: 700;
+        line-height: 1.3;
+        margin-left: 7px;
+      }
+      .auth-error-icon img {
+        height: 18px;
+        width: 18px;
+      }
+      .dark {
+        background: #000;
+      }
+      .single-badge:hover {
+        transform: translate3d(0, -1px, 0);
+        -webkit-transform: translate3d(0, -1px, 0);
+        -moz-transform: translate3d(0, -1px, 0);
+        -ms-transform: translate3d(0, -1px, 0);
+        -o-transform: translate3d(0, -1px, 0);
+      }
+      .home-fold,
+      .overflow-hidden {
+        overflow: hidden;
+      }
+      .kuda-cookie--badge {
+        background: #fbfbfb;
+        border: 1px solid #dfe3ff;
+        border-radius: 10px;
+        bottom: 40px;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.06);
+        color: #000;
+        font-size: 1rem;
+        height: 59px;
+        justify-content: space-between;
+        left: 50%;
+        padding: 20px 10px 20px 20px;
+        position: fixed;
+        transform: translateX(-50%);
+        width: auto;
+      }
+      .kuda-cookie--badge span {
+        background-color: #dfe3ff;
+        border-color: #dfe3ff;
+        color: var(--primaryColor);
+        font-size: 0.875rem;
+        height: 40px;
+      }
+      .kuda-cookie--badge p {
+        line-height: 1.28;
+        margin-right: 30px;
+        white-space: nowrap;
+      }
+      .kuda-entry--wrap {
+        overflow: hidden;
+      }
+      .kuda-app--step {
+        background: #eff1ff;
+        border: 1px solid hsla(228, 7%, 87%, 0.5);
+        border-radius: 100px;
+        box-shadow: 15px 30px 40px rgba(64, 25, 109, 0.07);
+        color: #40196d;
+        font-size: 1.75rem;
+        font-weight: 900;
+        height: 70px;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70px;
+      }
+      .kuda-steps--account .card-main--heading {
+        margin-bottom: 40px !important;
+      }
+      .kuda-steps--account .kuda-cta-long {
+        max-width: 190px;
+      }
+      .kuda-steps--account:not(:last-child) {
+        margin-bottom: 75px;
+      }
+      .kuda-steps--account .kuda-main--wrap {
+        max-width: 520px;
+        width: 100%;
+      }
+      .kuda-100 {
+        width: 100%;
+      }
+      .kuda-ambassador img {
+        border-radius: 10px;
+        border-radius: 200px;
+        -webkit-border-radius: 200px;
+        -moz-border-radius: 200px;
+        -ms-border-radius: 200px;
+        -o-border-radius: 200px;
+        display: flex;
+        filter: drop-shadow(20px 15px 12px rgba(64, 25, 109, 0.1));
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .kuda-ambassador--spotlight {
+        margin-bottom: 6.5%;
+        margin-top: 5%;
+        position: relative;
+      }
+      .kuda-play {
+        cursor: pointer;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .kuda-play img {
+        border-radius: 100px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+        box-shadow: 0 8.2px 14px rgba(72, 211, 138, 0.5);
+      }
+      .kuda-ambassador {
+        cursor: pointer;
+      }
+      .kuda-ambassador > img,
+      .kuda-ambassador > img {
+        max-width: 600px;
+      }
+      .kuda-ambassador > img,
+      .kuda-ambassador > img,
+      .kuda-borrow > img,
+      .kuda-borrow > img {
+        border-radius: 10px;
+        display: block;
+        filter: drop-shadow(20px 15px 12px rgba(64, 25, 109, 0.1));
+        height: auto;
+        margin: 0 auto;
+        width: 100%;
+      }
+      .kuda-borrow > img,
+      .kuda-borrow > img {
+        cursor: pointer;
+        max-width: 560px;
+      }
+      .kuda-share--card {
+        background: #fff;
+        border-radius: 4px;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.06);
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 360px;
+      }
+      .single-share--info {
+        padding: 20px 20px 20px 30px;
+        width: 100%;
+      }
+      .share-info-text {
+        padding-left: 20px;
+        text-align: left;
+      }
+      .share-trigger {
+        align-self: stretch;
+        background: #dfe3ff;
+        border-radius: 4px;
+        color: #40196d;
+        flex-grow: 1;
+        font-weight: 600;
+        margin-right: -1px;
+        min-width: 70px;
+      }
+      .share-card--image img {
+        display: flex;
+        height: 70px;
+        width: 70px;
+      }
+      .card-main--heading.no-margin {
+        margin-bottom: 0 !important;
+      }
+      .cursor-pointer {
+        cursor: pointer;
+      }
+      .kuda-social--li li:not(:last-child) {
+        margin-right: 17px;
+      }
+      .bottom-spacer--lg {
+        margin-bottom: 40px;
+      }
+      .blue-cta {
+        background-color: #40196d;
+      }
+      .kuda-full--section .kuda-section--max {
+        max-width: 100% !important;
+      }
+      .kuda-full--section .kuda-section--wrap {
+        max-width: 430px;
+      }
+      @keyframes bannermove {
+        to {
+          transform: translate3d(-100%, 0, 0);
+        }
+      }
+      .kuda-white--bg {
+        background-color: #fff;
+      }
+      .kuda-white--bg .kuda-social--li img {
+        height: 40px;
+        width: 40px;
+      }
+      .kuda-share--cta .kuda-section--illustration {
+        padding-left: 20px;
+      }
+      .kuda-share--cta .kuda-section--illustration img {
+        display: block;
+        margin-left: auto;
+        max-width: 300px;
+        width: 100%;
+      }
+      .kuda-modal-illustration img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 110px;
+        width: auto !important;
+      }
+      .celebrating-sections .kuda-section--illustration img {
+        max-width: 390px;
+        width: 100%;
+      }
+      textarea {
+        min-height: 80px !important;
+        padding-bottom: 14px !important;
+        padding-top: 14px !important;
+        resize: none;
+      }
+      .kuda-get--wrap .kuda-cta-long,
+      .kuda-view-jobs {
+        max-width: 152px;
+      }
+      .kuda-job-opening {
+        justify-content: center;
+        margin-top: 40px;
+      }
+      .kuda-qr--wrap > div {
+        background: #fff;
+        border-radius: 4px;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.06);
+        display: inline-block;
+        padding: 16px;
+        width: auto;
+      }
+      .overflow-visible .kuda-entry--inner {
+        overflow: visible;
+      }
+      .isCentered * {
+        justify-content: center;
+        text-align: center !important;
+      }
+      .isCentered .kuda-section--50 {
+        width: 100% !important;
+      }
+      .isCentered .kuda-main--wrap {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 660px;
+      }
+      .isCentered .card-main--heading * {
+        width: 100% !important;
+      }
+      .isCentered .card-main--heading {
+        max-width: 540px;
+      }
+      .isCentered .card-main--heading,
+      .isCentered .kuda-get--wrap .kuda-cta-long {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .no-top--padding {
+        margin-top: 0 !important;
+      }
+      .borrow-has--border {
+        border: 1px solid #dfe3ff !important;
+        filter: drop-shadow(20px 15px 12px rgba(64, 25, 109, 0.1));
+      }
+      .isCentered .kuda-entry--inner {
+        min-height: 1px;
+        padding-bottom: 7%;
+        padding-top: 6%;
+      }
+      .kuda-steps--account {
+        max-width: 520px;
+      }
+      .block-item--icon {
+        height: auto;
+        margin-bottom: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90px;
+      }
+      .kuda-single--protection {
+        background: #fff;
+        margin-bottom: 6%;
+        max-width: calc(50% - 40px);
+        overflow: hidden;
+      }
+      .kuda-protection--heading {
+        font-size: 2rem;
+        margin-bottom: 17px;
+      }
+      .kuda-protection--subheading {
+        font-size: 1rem;
+        font-weight: 400;
+      }
+      .kuda-protection--details {
+        margin-top: 20px;
+      }
+      .kuda-protection--cards {
+        margin-bottom: -6%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1017px;
+      }
+      .kuda--heading {
+        margin-bottom: 80px;
+      }
+      .questions-head p {
+        font-weight: 400;
+        margin-bottom: 20px;
+        margin-top: 15px;
+      }
+      .kuda-protect {
+        font-size: 48px !important;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 500px;
+      }
+      .kuda-single--protection:last-child .questions-head p {
+        margin-bottom: 0;
+      }
+      .full-preLoader .infinite-path {
+        background-color: var(--offWhiteTrans);
+        border-radius: 10px;
+        height: 3px;
+        margin: auto;
+        max-width: 280px;
+        overflow: hidden;
+        position: relative;
+      }
+      .full-preLoader .shape {
+        animation: anim 1.7s infinite;
+        animation-delay: 1s;
+        background-color: #40196d;
+        display: block;
+        height: 3px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        transition: all 1s ease-in-out;
+        width: 100px;
+      }
+      @keyframes anim {
+        0% {
+          left: -70px;
+        }
+        50% {
+          left: 250px;
+        }
+        to {
+          left: -70px;
+        }
+      }
+      .full-preLoader {
+        align-items: center;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        padding: 30px;
+        width: 100vw;
+      }
+      @media only screen and (max-width: 320px) {
+        @keyframes anim {
+          0% {
+            left: -29%;
+          }
+          50% {
+            left: 88%;
+          }
+          to {
+            left: -29%;
+          }
+        }
+      }
+      .kuda-header--extras {
+        margin-left: auto;
+      }
+      .has-left--margin {
+        height: 42px;
+        margin-left: 28px;
+        margin-right: 0 !important;
+      }
+      .has-left--margin[data-toggle="dropdown"]:hover .dropdown-menu {
+        left: auto;
+        right: 0;
+      }
+      .country-dropdown .menu-link--icon img {
+        height: 30px;
+        width: 30px;
+      }
+      .lead-menu--item {
+        align-items: center;
+        display: flex;
+      }
+      .country-dropdown .menu-link {
+        justify-content: space-between;
+        width: 100%;
+      }
+      .country-dropdown .coming-soon {
+        margin-left: 20px;
+      }
+      [data-toggle="dropdown"]:hover .dropdown-menu:after {
+        background-color: rgba(64, 25, 109, 0.2);
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 100vh;
+        left: 0;
+        pointer-events: none;
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 100vw;
+        z-index: -1;
+      }
+      .dropdown-menu {
+        z-index: 1 !important;
+      }
+      .kuda-global--menu {
+        background: #eff1ff;
+        border: 1px solid hsla(228, 7%, 87%, 0.5);
+        border-radius: 5px;
+        box-shadow: 15px 30px 40px rgba(64, 25, 109, 0.07);
+        overflow: hidden;
+        z-index: 2000 !important;
+      }
+      .global-menu--wrap {
+        max-width: 300px;
+        padding: 35px;
+      }
+      span.menu-link--icon.green-dot:after {
+        background: #48d38a;
+        border-radius: 50%;
+        content: "";
+        font-weight: 800;
+        height: 10px;
+        margin-left: 22px;
+        margin-top: 20px;
+        position: absolute;
+        width: 10px;
+      }
+      .footer-product--vary {
+        color: #979797;
+        font-size: 0.9rem;
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+      }
+      .f-16 {
+        font-size: 1rem;
+      }
+      .line-height-1 {
+        line-height: 2.15625;
+      }
+      .line-height-2 {
+        line-height: 1.85625;
+      }
+      .border-topp {
+        border-top: 1px solid hsla(228, 7%, 87%, 0.5);
+      }
+      .h-100 {
+        height: 100%;
+      }
+      .w-100 {
+        width: 100%;
+      }
+      .global-menu--modal {
+        width: auto !important;
+      }
+      .label {
+        align-items: center;
+        background: #fff;
+        border: 0.7px solid rgba(223, 227, 255, 0.5);
+        border-radius: 5px;
+        box-shadow: 15px 30px 40px rgba(64, 25, 109, 0.07);
+        height: 50px;
+        margin-bottom: 0;
+        min-width: 252px;
+        padding: 4px 16px;
+        width: 100%;
+      }
+      .content-section {
+        padding-bottom: 0;
+      }
+      .label span {
+        font-size: 0.9375rem;
+        font-weight: 800;
+        line-height: 2.6rem;
+      }
+      .panelled[aria-expanded="true"] .content-section {
+        background: #fff;
+        font-size: 0.875rem;
+        font-weight: 500;
+        line-height: 2.6rem;
+        max-width: 252px;
+        padding: 4px 16px;
+        width: 100%;
+      }
+      .item-indicator {
+        height: 100%;
+        position: absolute;
+        width: 16px;
+      }
+      .item-indicator-item {
+        background: #40196d;
+        border-radius: 0 5px 5px 0;
+        height: 100%;
+        width: 4px;
+      }
+      .policy-sidebar {
+        padding: 70px 40px 63px 54px;
+        position: fixed;
+        right: 66.5%;
+        top: 20%;
+        z-index: 9;
+      }
+      .flag-icon img {
+        transform: none !important;
+      }
+      .inner__text {
+        background: #fff;
+        border-radius: 4px;
+        box-shadow: 15px 30px 40px rgb(64 25 109/7%), 0 0 25px rgb(0 0 0/6%);
+        max-width: 252px;
+      }
+      .general-style {
+        margin-left: auto;
+        width: 70%;
+      }
+      ::-webkit-scrollbar {
+        background-color: #fff;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #fff;
+      }
+      .w-70 {
+        width: 70%;
+      }
+      .cta-hide {
+        display: block;
+      }
+      .panel-sidebar {
+        margin-top: 17px;
+      }
+      .tab-item {
+        display: flex;
+        flex-direction: column;
+      }
+      .sidebar-opacity {
+        opacity: 1 !important;
+        -webkit-transform: none !important;
+      }
+      .f-14 {
+        font-size: 0.8rem;
+      }
+      .back-page {
+        display: none;
+      }
+      .text-color {
+        color: #000;
+      }
+      .d-flex {
+        display: flex;
+      }
+      .pos-relative {
+        position: relative;
+      }
+      .width-calc {
+        margin-left: auto;
+        width: calc(100% - 275px);
+      }
+      .kuda-section--illustration svg.transform-right {
+        transform: scale(1.2) !important;
+      }
+      .kuda-section--illustration .transform {
+        transform: scale(1.12) !important;
+      }
+      .kuda-color {
+        background: #dfe3ff;
+        box-shadow: 0 6px 20px rgba(64, 25, 109, 0.15);
+      }
+      .padd {
+        padding-left: 60px !important;
+      }
+      .show-mobile {
+        display: none !important;
+      }
+      .desktop-mobile {
+        display: block !important;
+      }
+      .kuda-table thead .pricing-head {
+        background: #fff !important;
+      }
+      .visible-anim {
+        opacity: 1;
+      }
+      .fade-anim {
+        display: none;
+        opacity: 0 !important;
+        z-index: -999;
+      }
+      .policy-sidebar {
+        transition: 0.3s ease;
+      }
+      .kuda-text-color {
+        color: #40196d !important;
+        font-weight: 700 !important;
+      }
+      .kuda-text-color,
+      .pricing-text {
+        font-size: 1rem !important;
+      }
+      .background-grey {
+        background: #f9f9f9 !important;
+      }
+      .kuda-dark--theme .label-mobile,
+      .mobile-text,
+      .panelled-moble[aria-expanded="true"] .content-section,
+      .table-mobile-head {
+        background: var(--whiteAlt) !important;
+      }
+      .mobile-color {
+        background: var(--blackColor) !important;
+      }
+      .item-mobile-indicator {
+        height: 100%;
+        position: absolute;
+        width: 16px;
+      }
+      .item-mobile-indicator-item {
+        background: var(--blackColor) !important;
+        border-radius: 0 5px 5px 0;
+        height: 100%;
+        width: 4px;
+      }
+      body,
+      html {
+        height: 100%;
+      }
+      .kuda-get--wrap .mt-4 {
+        margin-top: 2rem !important;
+      }
+      .header-background {
+        background-color: var(--offBlue);
+        height: 100%;
+        min-height: 675px;
+      }
+      .careers-h1 {
+        font-size: 48px;
+        font-weight: 900;
+      }
+      .careers-h2 {
+        font-size: 36px;
+        font-weight: 900;
+      }
+      .careers-h3 {
+        font-size: 24px;
+        font-weight: 900;
+      }
+      .kuda-career-container {
+        margin-top: 160px;
+      }
+      .kuda-careers-values1 {
+        background-color: #dfe3ff;
+      }
+      .kuda-careers-values2 {
+        background-color: #dbf8ff;
+      }
+      .kuda-careers-values3 {
+        background-color: #dcffec;
+      }
+      .kuda-careers-values4 {
+        background-color: #fff5db;
+      }
+      .kuda-careers-values5 {
+        background-color: #ffdbdb;
+      }
+      .kuda-values-grid {
+        display: grid;
+        gap: 24px;
+        grid-template-columns: repeat(6, 163.5px);
+        grid-template-rows: 336px 43px 336px 263px;
+      }
+      .kuda-values-grid-colspan-2 {
+        grid-column: span 2;
+      }
+      .kuda-values-grid-colspan-3 {
+        grid-column: span 3;
+      }
+      .kuda-values-grid-rowspan-1 {
+        grid-row-end: 3;
+        grid-row-start: 1;
+      }
+      .kuda-values-grid-rowspan-2 {
+        grid-row-end: 4;
+        grid-row-start: 2;
+      }
+      .kuda-values-col-position-1 {
+        grid-column-end: 3;
+        grid-column-start: 1;
+      }
+      .kuda-values-grid-item {
+        border-radius: 4px;
+        padding: 20px;
+      }
+      .kuda-values-grid-item2 {
+        padding-top: 32px;
+      }
+      .kuda-values-grid-item h3 {
+        font-size: 24px;
+      }
+      .kuda-career-bottom-margin {
+        margin-bottom: 10px;
+      }
+      .kuda-career-bottom-margin2 {
+        margin-bottom: 12px;
+      }
+      .kuda-career-bottom-margin3 {
+        margin-bottom: 40px;
+      }
+      .kuda-career-bottom-margin4 {
+        margin-bottom: 64px;
+      }
+      .kuda-value-subheader {
+        margin-bottom: 60px;
+        max-width: 406px;
+      }
+      .kuda-values-img1 {
+        left: 112px;
+        position: relative;
+        top: 38px;
+      }
+      .kuda-values-img2 {
+        position: relative;
+        right: 20px;
+        top: 62px;
+      }
+      .kuda-values-img3 {
+        left: 60px;
+        position: relative;
+      }
+      .kuda-values-img4 {
+        position: relative;
+        right: -100px;
+        top: 80px;
+      }
+      .kuda-values-img5 {
+        left: 86px;
+        position: relative;
+        top: 52px;
+      }
+      .kuda-values-img6 {
+        left: 136px;
+        position: relative;
+        top: 55px;
+      }
+      .kuda-values-img7-1 {
+        bottom: 129px;
+        left: 15px;
+        position: relative;
+      }
+      .kuda-values-img7 {
+        bottom: 94px;
+        left: 271px;
+        position: relative;
+      }
+      .kuda-values-img8-1 {
+        bottom: 173px;
+        position: relative;
+        right: 7px;
+      }
+      .kuda-values-img8 {
+        bottom: 369px;
+        left: 311px;
+        position: relative;
+      }
+      .faqs {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 726px;
+        width: 100%;
+      }
+      .faq {
+        border-bottom: 1px solid hsla(228, 7%, 87%, 0.5);
+        padding-bottom: 21px;
+        padding-top: 16px;
+      }
+      .faq-question {
+        font-size: 1.25rem;
+        font-weight: 600;
+        position: relative;
+        transition: all 0.4s ease;
+      }
+      .faq-question:after {
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjE0IiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgOCAxNCI+PHBhdGggZmlsbD0iI0M3QzdDQyIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNLjA2MyAxLjkyOCAxLjQ5LjVsNi41MDcgNi40OTRMMS40OSAxMy41LjA2MyAxMi4wNzMgNS4xNCA2Ljk5Ni4wNjMgMS45MjhaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        content: "";
+        height: 13px;
+        position: absolute;
+        right: 11px;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: all 0.4s ease-out;
+        width: 8px;
+      }
+      .faq-answer {
+        max-height: 0;
+        opacity: 0;
+        overflow-y: hidden;
+        transition: all 0.4s ease-out;
+      }
+      .faq.open .faq-question {
+        margin-bottom: 13px;
+      }
+      .faq.open .faq-question:after {
+        transform: translateY(-50%) rotate(90deg);
+      }
+      .faq.open .faq-answer {
+        line-height: 26px;
+        max-height: 1000px;
+        opacity: 1;
+      }
+      .career-card {
+        position: relative;
+      }
+      .career-card:after {
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxMSIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDE0IDExIj48cGF0aCBzdHJva2U9IiMwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIxLjUiIGQ9Ik0xLjY2NyA1LjVoMTAuNjY2TTcuNjY2LjgzMyAxMi4zMzQgNS41bC00LjY2NyA0LjY2NyIvPjwvc3ZnPg==);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        content: "";
+        cursor: pointer;
+        height: 9.33px;
+        position: absolute;
+        right: 23px;
+        top: 72%;
+        width: 10.67px;
+      }
+      .summary-top .career-card {
+        display: flex;
+        flex-direction: column;
+        height: 140px;
+        justify-content: space-between;
+        max-width: 242px;
+        width: 100%;
+      }
+      .careers-search-bar {
+        background: #fff;
+        border: 1px solid #f4f4f4;
+        border-radius: 10px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+        height: 56px;
+        margin: 0 auto 40px;
+        max-width: 775px;
+        padding: 0 24px;
+        position: relative;
+        width: 100%;
+        z-index: 99;
+      }
+      .careers-search-input {
+        padding-right: 49px;
+        width: 41%;
+      }
+      .career-job-list {
+        background: #fff;
+        border-radius: 4px;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.06);
+        height: 66px;
+        margin: 0 auto 24px;
+        max-width: 775px;
+        padding: 0 24px;
+        width: 100%;
+      }
+      .career-job-list-desc {
+        cursor: pointer;
+        line-height: 1.2;
+        padding-right: 49px;
+        width: 41%;
+      }
+      .career-job-list-location {
+        width: 40%;
+      }
+      .career-job-list-location,
+      .career-location-dropdown {
+        border-left: 0.5px solid #979797;
+        padding-left: 32px;
+        padding-right: 50px;
+      }
+      .career-location-dropdown {
+        width: 68%;
+      }
+      .career-location-dropdown,
+      .career-type-dropdown {
+        position: relative;
+      }
+      .career-job-list-type {
+        width: 19%;
+      }
+      .career-job-list-type,
+      .career-type-dropdown {
+        border-left: 0.5px solid #979797;
+        padding-left: 32px;
+      }
+      .career-type-dropdown {
+        width: 32%;
+      }
+      .career-noMarginTop {
+        margin-top: -70px;
+      }
+      .career-ceo-message {
+        max-width: 490px;
+        width: 100%;
+      }
+      .career-container-width {
+        max-width: 1100px;
+        width: 100%;
+      }
+      .career-figure-size {
+        border-radius: 100%;
+        height: 320px;
+        width: 320px !important;
+      }
+      .careers-icon-margin {
+        margin-left: 12px;
+        margin-right: 12px;
+      }
+      .career-jobview {
+        height: 16px;
+      }
+      .careers-dropdown-mobile {
+        width: 59%;
+      }
+      .career-location-list {
+        border-bottom: 1px solid #f4f4f4;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        height: 49px;
+        justify-content: center;
+      }
+      .career-location-list:hover {
+        background-color: #f9f9f9;
+        margin-left: -18px;
+        margin-right: -18px;
+        padding-left: 18px;
+      }
+      .careers-jobs-header {
+        color: var(--primaryColor);
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 50px;
+        text-align: center;
+      }
+      .careers-job-view-header {
+        align-items: center;
+        color: var(--primaryColor);
+        display: flex;
+        font-size: 14px;
+        font-weight: 700;
+      }
+      .careers-job-view-header span {
+        margin-right: 13px;
+      }
+      .careers-inputfield {
+        border: none;
+        outline: none;
+        width: 140%;
+      }
+      .careers-dropdown {
+        background: var(--whiteColor);
+        border: 1px solid var(--borderOff);
+        border-radius: 5px;
+        box-shadow: 15px 30px 40px var(--boxShadow);
+        height: 464px;
+        left: 0;
+        overflow-y: scroll;
+        padding: 5px 22.5px 10px;
+        position: absolute;
+        top: 44px;
+        width: 100%;
+      }
+      .careers-dropdown-2 {
+        width: calc(100% + 24px);
+      }
+      .careers-empty-state h4 {
+        font-size: 20px;
+        margin-bottom: 8px;
+        margin-top: 20px;
+      }
+      .careers-empty-state p {
+        font-size: 15px;
+        max-width: 396px;
+        width: 100%;
+      }
+      .careers-empty-state img {
+        margin-top: 24px;
+      }
+      .career-tech-stack {
+        background: #fbfbfb;
+        font-size: 36px;
+        margin-top: 160px;
+        padding: 98px 0;
+      }
+      .career-techstack-top {
+        margin-top: 48px;
+        max-width: 1036px;
+        width: 100%;
+      }
+      .career-techstack-bottom {
+        margin-top: 56px;
+        max-width: 1133px;
+        width: 100%;
+      }
+      .careers-video-header {
+        color: var(--primaryColor);
+        margin-bottom: 12px;
+        margin-top: 160px;
+      }
+      .careers-video-text-container p {
+        max-width: 443px;
+        width: 100%;
+      }
+      .careers-picture-text-container p {
+        max-width: 406px;
+        width: 100%;
+      }
+      .careers-office-image .office-svg {
+        height: 274px;
+        margin-left: 12px;
+        max-width: 410px;
+        position: relative;
+        width: 100%;
+      }
+      .office-svg img {
+        height: 274px;
+        max-width: 410px;
+      }
+      .careers-kuda-testimonial--cards {
+        animation: nonStop 100s linear 0s infinite normal none running;
+        -webkit-animation: nonStop 100s linear 0s infinite normal none running;
+        display: flex;
+        margin-top: 55px;
+        min-width: 2786px;
+        transform: translateZ(0);
+      }
+      .careers-kuda-testimonial--cards .card {
+        display: flex;
+        flex-direction: column;
+        height: 280px;
+        margin-left: 20px;
+        min-width: 329px;
+      }
+      .careers-scroll-button-left {
+        left: 20px;
+        transform: rotate(180deg);
+      }
+      .careers-scroll-button-left,
+      .careers-scroll-button-right {
+        cursor: pointer;
+        opacity: 0.6;
+        position: absolute;
+        top: 60%;
+        z-index: 1;
+      }
+      .careers-scroll-button-right {
+        right: 20px;
+      }
+      .careers-scroll-button-left:hover,
+      .careers-scroll-button-right:hover {
+        opacity: 1;
+      }
+      .careers-scroller {
+        overflow: auto;
+        overscroll-behavior-inline: contain;
+        scroll-behavior: smooth;
+      }
+      .careers-flag-icon {
+        width: 16px;
+      }
+      .careers-bottom-text {
+        margin-top: 200px;
+        padding: 0 20px;
+      }
+      .careers-kuda-logo-margin {
+        margin-right: 80px;
+      }
+      .careers-image-text {
+        margin: 0 auto;
+        max-width: 873px;
+        width: 100%;
+      }
+      .careers-kuda-section--wrap {
+        max-width: 490px;
+      }
+      .careers-kuda-section--wrap .kuda-section--max {
+        max-width: 100%;
+      }
+      .careers-kuda-section {
+        margin-top: 200px;
+      }
+      .careers-header-dropdown {
+        height: 246px;
+        overflow-y: scroll;
+      }
+      .no-line-height {
+        line-height: 1;
+      }
+      .business-header-title {
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 50px;
+        margin-bottom: 36px;
+        max-width: 800px;
+      }
+      .business-header-subtext {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-bottom: 36px;
+        max-width: 650px;
+        text-align: center;
+      }
+      .business-header-container {
+        margin-bottom: 60px;
+      }
+      .business-centered-header {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1057px;
+        min-height: 90vh;
+        overflow: visible;
+        padding-bottom: 10px;
+        padding-top: 120px;
+        position: relative;
+        text-align: center;
+      }
+      @keyframes slide-right-fadin {
+        0% {
+          opacity: 0;
+          transform: translateX(-200%);
+        }
+        50% {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+          transform: translateX(-25%);
+        }
+      }
+      .scam-awareness-header {
+        margin-bottom: 120px;
+      }
+      .scam-awareness-subtext {
+        font-size: 20px;
+        line-height: 30px;
+        max-width: 600px;
+      }
+      .scam-awareness-text {
+        font-size: 16px;
+        line-height: 24px;
+      }
+      .scam-awareness--section {
+        max-width: 450px !important;
+      }
+      .scam-awareness-title {
+        font-size: 48px;
+        line-height: 50px;
+        margin-bottom: 20px;
+        margin-top: 60px;
+        max-width: 700px;
+      }
+      .scam-awareness-h1 {
+        line-height: 50px;
+      }
+      .scam-awareness-h1,
+      .scam-awareness-h2 {
+        font-size: 36px;
+        font-weight: 900;
+      }
+      .scam-awareness-h3 {
+        font-size: 24px;
+        font-weight: 900;
+      }
+      .scam-awareness-h5 {
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 28px;
+      }
+      .question-title-max {
+        max-width: 500px;
+      }
+      .slide-in-top {
+        animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+      }
+      .slide-in-right {
+        animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+      }
+      @keyframes slide-right {
+        0% {
+          transform: translateX(-100%);
+        }
+        to {
+          transform: translateX(0);
+        }
+      }
+      @keyframes slide-top {
+        0% {
+          transform: translateY(200%);
+        }
+        to {
+          transform: translateY(0);
+        }
+      }
+      .nav-link-text {
+        color: #000;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+      }
+      .menu-link:hover .nav-link-text {
+        color: var(--primaryColor) !important;
+        font-weight: 600;
+        transition: all 0.5s;
+      }
+      .menu-link:hover .menu-link--icon {
+        transform: scale(1.2);
+        transition: all 0.5s;
+      }
+      .kuda-mobile--menu-item:not(:last-child) {
+        border-bottom: 1px solid hsla(228, 7%, 87%, 0.5);
+      }
+      .kuda-mobile--menu-item {
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 0;
+      }
+      .kuda-join-scan-illustration {
+        height: auto;
+        width: 110px;
+      }
+      .modal-content.qrCode,
+      .modal-content.qrCode svg {
+        height: auto;
+        max-width: 354px;
+        width: 100%;
+      }
+      picture > img {
+        opacity: 1 !important;
+      }
+      .no-margin--top {
+        margin-top: 0;
+      }
+      .text-normal-md {
+        font-size: 1.5rem;
+      }
+      .diclaimer-list li:not(last-child) {
+        margin-bottom: 10px;
+      }
+      .list-style-type--roman li {
+        list-style-type: lower-roman;
+      }
+      .text-italic {
+        font-style: italic;
+      }
+      .kuda-top--inner {
+        display: flex;
+        justify-content: center;
+      }
+      .top-business--heading {
+        color: var(--whiteColor);
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 24px;
+        margin-bottom: 2.5rem;
+        text-transform: capitalize;
+      }
+      .business-registration {
+        background: #000;
+        display: flex;
+        height: auto;
+        margin-top: 10%;
+        width: 100vw;
+      }
+      .business-registration--inner {
+        display: flex;
+        height: inherit;
+        justify-content: center;
+        padding: 80px 180px;
+        width: 100%;
+      }
+      .business-registration--inner .business-regsitration-heading {
+        font-size: 2.25rem;
+        line-height: 50px;
+        margin-bottom: 4rem;
+      }
+      video {
+        object-fit: contain;
+        overflow: clip;
+        overflow-clip-margin: content-box;
+      }
+      .summary-bottom .card,
+      .summary-top .card {
+        margin-bottom: 20px;
+      }
+      @media only screen and (max-width: 991px) {
+        .kuda-preview {
+          display: block;
+          padding: 0;
+        }
+        .kuda-preview.no-margin--top {
+          padding: 50px 40px 43px;
+        }
+        .kuda-section--42,
+        .kuda-section--50,
+        .kuda-section--58 {
+          width: 100%;
+        }
+        .kuda-illustration--center img {
+          display: flex;
+          height: auto;
+          margin-left: auto;
+          margin-right: auto;
+          width: 100%;
+        }
+        .kuda-illustration--center {
+          display: block;
+          margin-top: 30px;
+        }
+        .kuda-section--45,
+        .kuda-section--55,
+        .summary-bottom .card,
+        .summary-top .card {
+          width: 100%;
+        }
+        .kuda-section--inner {
+          flex-wrap: wrap;
+        }
+        .celebrating-sections .kuda-section--illustration img,
+        .kuda-section--illustration img {
+          margin-bottom: 30px !important;
+          margin-top: 0 !important;
+        }
+        .celebrating-sections .kuda-section--wrap {
+          align-items: center;
+        }
+        .kuda-section--wrap * {
+          text-align: center;
+        }
+        .kuda-section--business-illustration img {
+          height: auto !important;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 50px;
+          max-width: 426px;
+          width: 100%;
+        }
+        .kuda-section--illustration img,
+        .kuda-section--illustration img {
+          height: auto !important;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 50px;
+          max-width: 300px;
+          width: auto;
+        }
+        .celebrating-sections .kuda-section--illustration img {
+          max-width: 300px;
+        }
+        .kuda-section--max,
+        .kuda-section--wrap {
+          display: flex;
+          flex-direction: column;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .learn-more {
+          justify-content: center;
+        }
+        .summary-top .card {
+          width: calc(33.33% - 13px);
+        }
+        .business-text-wrap *,
+        .kuda-main--wrap * {
+          text-align: center;
+        }
+        .cta-business-illustration,
+        .cta-illustration {
+          display: none;
+        }
+        .kuda-entry--fold .business-text-wrap *,
+        .kuda-entry--fold .kuda-main--wrap * {
+          text-align: left !important;
+        }
+        .isCentered *,
+        .isCentered .kuda-main--wrap * {
+          justify-content: center;
+          text-align: center !important;
+        }
+        .mobile-reverse {
+          flex-direction: column-reverse;
+        }
+        .kuda-cta--section {
+          flex-wrap: wrap;
+        }
+        .kuda-cta--section .kuda-main--wrap {
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .kuda-cta--section .kuda-app--badges,
+        .kuda-cta--section .kuda-app--licenses {
+          justify-content: center;
+        }
+        .kuda-header--extras {
+          display: none !important;
+        }
+        .mobile-toggle {
+          align-items: center;
+          display: flex;
+        }
+        .kuda-mobile--menu {
+          background: rgba(64, 25, 109, 0.2);
+          background-color: #fff;
+          bottom: 0;
+          height: 100%;
+          left: 0;
+          overflow-y: scroll;
+          position: fixed;
+          right: 0;
+          top: 0;
+          width: 100%;
+          z-index: 99999;
+        }
+        .kuda-mobile--menu .kuda-menu--wrap {
+          align-items: flex-start !important;
+          background: #fff;
+          display: flex !important;
+          flex-direction: column;
+          height: 100vh;
+          margin-left: auto;
+          width: 100%;
+        }
+        @keyframes slide-in-out {
+          0% {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+        .kuda-menu--wrap,
+        .kuda-menu--wrap-careers {
+          display: none !important;
+        }
+        .kuda-menu--actions {
+          left: 50%;
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 550px;
+          transform: translateX(-50%);
+        }
+        .nav-col--wrap {
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 500px;
+        }
+        .nav-menu-wrap {
+          margin-top: 25px;
+        }
+        .flex.justify-between .kuda-cta-md {
+          max-width: calc(50% - 8px);
+        }
+        .kuda-share--cta .kuda-social--li {
+          justify-content: center;
+          margin-bottom: 35px;
+        }
+        .kuda-share--cta .kuda-section--illustration {
+          padding: 0;
+        }
+        .kuda-share--cta .kuda-section--illustration img {
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 230px;
+        }
+        .country-dropdown .coming-soon {
+          margin-left: 12px;
+        }
+        .has-left--margin {
+          margin-left: auto;
+          margin-right: 17px !important;
+        }
+        .footer-global a {
+          margin: auto;
+        }
+        .careers-image-text-mobile {
+          flex-direction: column;
+        }
+        .scam-awareness-title {
+          font-size: 32px;
+          line-height: 35px;
+          margin-bottom: 15px;
+          margin-top: 0;
+        }
+        .scam-awareness-subtext {
+          font-size: 16px;
+          line-height: 24px;
+        }
+        .scam-awareness-header {
+          margin-bottom: 100px;
+        }
+        .scam-awareness-text {
+          font-size: 14px;
+          line-height: 20px;
+        }
+        .scam-awareness-h1,
+        .scam-awareness-h2 {
+          font-size: 28px;
+          line-height: 37px;
+        }
+        .scam-awareness-h2 {
+          font-weight: 900;
+        }
+        .scam-awareness-h3 {
+          font-size: 20px;
+          line-height: 25px;
+        }
+        .scam-awareness-h5 {
+          font-size: 16px;
+          font-weight: 800;
+          line-height: 20px;
+        }
+        .business-centered-header {
+          min-height: 90vh;
+          padding-top: 150px;
+        }
+      }
+      .closeModal svg {
+        height: 24px;
+      }
+      @media only screen and (max-width: 767px) {
+        body,
+        html {
+          font-size: 14px;
+        }
+        .kuda-header--wrap,
+        .kuda-preview,
+        footer .container {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        .auth-header {
+          margin-left: 0;
+        }
+        .kuda-header {
+          height: 64px;
+        }
+        .kuda-preview {
+          display: block;
+          padding-left: 20px !important;
+          padding-right: 20px !important;
+        }
+        h1 {
+          font-size: 1.7rem;
+        }
+        .kuda-cta {
+          font-size: 14px;
+          height: 42px;
+        }
+        .kuda-brand img {
+          display: flex;
+          height: 16px;
+        }
+        .kuda-header .kuda-cta-lg {
+          background: none;
+          background: none !important;
+          border: 0;
+          justify-content: flex-end;
+          max-width: 113px;
+          padding: 0 !important;
+        }
+        .kuda-cta-long {
+          max-width: 240px;
+        }
+        .kuda-cta-biz {
+          margin: 12px auto 0;
+          max-width: 170px;
+          width: 100%;
+        }
+        .text-xs {
+          font-size: 0.78rem;
+        }
+        .kuda-transaction--tabs > li {
+          font-size: 12px;
+        }
+        .back img {
+          height: 13px;
+          margin-right: 6px;
+          position: relative;
+        }
+        .kuda-inner--heading {
+          font-size: 1.55rem;
+        }
+        .kuda-card--wrap,
+        .payment-wrap .kuda-card--wrap {
+          padding-bottom: 40px !important;
+          padding-left: 22px !important;
+          padding-right: 22px !important;
+        }
+        .kuda-preview {
+          padding-top: 50px;
+        }
+        .kuda-transaction--tabs {
+          border-radius: 0;
+          margin-top: 22px;
+          overflow-x: scroll;
+          overflow-y: hidden;
+        }
+        .balance.mt-5 {
+          margin-top: 30px !important;
+        }
+        .modal-backdrop {
+          margin-top: 0;
+          padding: 88px 20px;
+        }
+        .modal-content {
+          padding-bottom: 40px;
+          padding-left: 25px;
+          padding-right: 25px;
+        }
+        .kuda-cta-md {
+          max-width: 115px;
+        }
+        .kuda-card--wrap {
+          margin-top: 25px;
+        }
+        .inactivity-buttons {
+          flex-direction: column;
+        }
+        .inactivity-buttons > div {
+          margin-bottom: 20px;
+          max-width: 100% !important;
+          width: 100%;
+        }
+        .kuda-split--wrap .card-group {
+          width: 100%;
+        }
+        .kuda-split--wrap {
+          flex-direction: column;
+          margin-bottom: 28px;
+        }
+        .back-to {
+          left: 22px;
+        }
+        .panel__label span:first-child {
+          padding-right: 30px;
+        }
+        .panel__label span {
+          line-height: 1.45;
+        }
+        .accordion {
+          margin-top: 20px !important;
+        }
+        .kuda-transaction--tabs::-webkit-scrollbar {
+          display: none;
+        }
+        .amount-input {
+          font-size: 16px;
+        }
+        .coming-soon--downloads {
+          align-items: center;
+          gap: 5px;
+          justify-content: space-between;
+          width: 55%;
+        }
+        .coming-soon--downloads > div img {
+          height: auto;
+          width: 100%;
+        }
+        .flex.justify-between .kuda-cta-md {
+          max-width: calc(50% - 8px);
+        }
+        .formInput {
+          font-size: 16px !important;
+        }
+        .kuda-section--42,
+        .kuda-section--50,
+        .kuda-section--58 {
+          width: 100%;
+        }
+        .kuda-entry--inner {
+          flex-wrap: wrap;
+        }
+        .kuda-illustration--center img {
+          display: flex;
+          height: auto;
+          margin-left: auto;
+          margin-right: auto;
+          width: 100%;
+        }
+        .kuda-illustration--center {
+          display: block;
+          margin-top: 30px;
+        }
+        .text-xl {
+          font-size: 2.5rem !important;
+          line-height: 1.33;
+        }
+        .kuda-section--45,
+        .kuda-section--55,
+        .summary-bottom .card,
+        .summary-top .card {
+          width: 100% !important;
+        }
+        .kuda-section--inner,
+        .kuda-summary--cards {
+          flex-wrap: wrap;
+        }
+        .summary-bottom .card:not(:last-child),
+        .summary-top .card:not(:last-child) {
+          margin-bottom: 20px;
+        }
+        .summary-bottom .card:not(:last-child) {
+          margin-right: 0;
+        }
+        .card-item {
+          align-items: center;
+          display: flex;
+          padding: 20px;
+        }
+        .card-mobile,
+        .careers-kuda-testimonial--cards .card-item {
+          align-items: flex-start;
+        }
+        .card-mobile {
+          flex-direction: column;
+        }
+        .card-item p {
+          margin-left: 18px;
+        }
+        .card-mobile p {
+          margin-left: 0;
+        }
+        .kuda-testimonial--cards .card-item {
+          align-items: flex-start;
+          padding: 22px 20px;
+        }
+        .careers-kuda-testimonial--cards .card-item p,
+        .kuda-testimonial--cards .card-item p {
+          margin-left: 0;
+        }
+        .careers-kuda-testimonial--cards .card-item .testimonial-text {
+          font-size: 13px !important;
+        }
+        .card-icon--spacing {
+          margin-bottom: 0;
+        }
+        .kuda-section--heading {
+          font-size: 2rem;
+        }
+        .testimonial-extras {
+          margin-top: 10px;
+        }
+        .kuda-section--illustration img,
+        .kuda-section--illustration img {
+          height: auto !important;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 50px;
+          max-width: 300px;
+          width: 100%;
+        }
+        .plan-single--wrap,
+        .pricing-single--wrap {
+          flex-wrap: wrap;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        .document-single--wrap {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        .plan-full .plan-single:first-child,
+        .plan-full .plan-single:not(:first-child) {
+          width: 33.33% !important;
+        }
+        .plan-full .pricing-single:first-child {
+          width: 100%;
+        }
+        .plan-full .pricing-single:not(:first-child) {
+          width: 50%;
+        }
+        .plan-full .document-single:first-child {
+          width: 100%;
+        }
+        .plan-full .document-single:not(:first-child) {
+          width: 50%;
+        }
+        .plan-single--wrap {
+          padding-top: 17px;
+        }
+        .pricing-single--wrap {
+          padding-bottom: 17px;
+          padding-top: 17px;
+        }
+        .document-single--wrap {
+          padding-top: 17px;
+        }
+        .plan-full .document-single:last-child .feature-summary,
+        .plan-full .plan-single:last-child .feature-summary {
+          margin-bottom: 20px;
+        }
+        .check-icon {
+          top: 2px;
+        }
+        .plan-features {
+          margin-bottom: 20px;
+        }
+        .kuda-cta--section {
+          padding: 35px 20px;
+        }
+        .cta-business-illustration,
+        .cta-illustration {
+          display: none;
+        }
+        .plan-heading.flex {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        .plan-heading.flex > .plan-single:first-child {
+          display: none;
+        }
+        .plan-heading.flex > .document-single:first-child {
+          display: block;
+        }
+        .plan-heading.flex .document-single,
+        .plan-heading.flex .plan-single {
+          width: 50%;
+        }
+        .plan-single:nth-child(2) {
+          padding-right: 15px;
+        }
+        .pricing-single:nth-child(2) {
+          padding-right: 0 !important;
+        }
+        .document-single:nth-child(2) {
+          padding-right: 15px;
+        }
+        .plan-full .plan-features {
+          padding-right: 0;
+        }
+        .kuda-standard--section {
+          padding-top: 65px;
+        }
+        .kuda-section {
+          margin-top: 120px;
+        }
+        .kuda-standard--section {
+          margin-top: 0;
+        }
+        .kuda-plan--wrap {
+          margin-top: 30px;
+        }
+        .business-text-wrap *,
+        .kuda-entry--fold .business-text-wrap *,
+        .kuda-entry--fold .kuda-main--wrap *,
+        .kuda-main--wrap * {
+          text-align: center !important;
+        }
+        .kuda-app--badges,
+        .kuda-app--licenses {
+          justify-content: center;
+        }
+        .kuda-section--wrap * {
+          text-align: center;
+        }
+        .learn-more {
+          justify-content: center;
+        }
+        .kuda-testimonial--wrap h1 {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        .kuda-testimonial--cards {
+          margin-top: 40px;
+        }
+        .kuda-section--max,
+        .kuda-section--wrap {
+          display: flex;
+          flex-direction: column;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .information-col:first-child,
+        .kuda-footer--col:first-child {
+          margin-bottom: 10px;
+          width: 100%;
+        }
+        .footer-contact--information,
+        .kuda-footer--nav {
+          flex-wrap: wrap;
+        }
+        .footer-contact--information {
+          flex-direction: column;
+        }
+        .information-col:not(:first-child),
+        .kuda-footer--col:not(:first-child) {
+          margin-right: 0;
+          margin-top: 30px;
+          padding-right: 15px;
+          width: 50%;
+        }
+        .mobile-reverse {
+          flex-direction: column-reverse;
+        }
+        .feature-text {
+          display: flex;
+          font-size: 0.875rem;
+        }
+        .check-icon {
+          margin-right: 8px;
+          top: 1px;
+        }
+        .feature-text img {
+          transform: translateY(-1.9px);
+        }
+        .plan-full .document-single:last-child,
+        .plan-full .plan-single:last-child,
+        .plan-heading.flex .document-single:last-child,
+        .plan-heading.flex .plan-single:last-child {
+          padding-left: 10px;
+        }
+        .kuda-footer--brand {
+          margin-top: 40px;
+        }
+        .kuda-publication--wrap {
+          flex-wrap: wrap;
+          justify-content: center;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        .publication-image:not(:last-child) {
+          margin-right: 0;
+        }
+        .publication-image {
+          margin-top: 40px;
+          width: 33.33%;
+        }
+        .publication-image img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          max-height: 100% !important;
+          width: 50%;
+        }
+        .kuda-partner--three,
+        .kuda-partners--wrap {
+          flex-wrap: wrap;
+          margin-top: 0;
+        }
+        .partners-image {
+          margin-top: 40px;
+          width: 50%;
+        }
+        .partners-image img {
+          width: 80%;
+        }
+        .kuda-partner--three .partners-image {
+          margin-top: 40px;
+          width: 50%;
+        }
+        .kuda-partner--three {
+          justify-content: center !important;
+        }
+        .partners-image img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          max-height: 41px;
+          width: 53%;
+        }
+        .kuda-partners--wrap:not(.kuda-partner--three) {
+          margin-top: 0;
+        }
+        .kuda-partner--three .partners-image:nth-child(2) img {
+          min-width: 100px;
+        }
+        .kuda-section--bg {
+          padding-bottom: 40px;
+          padding-top: 65px;
+        }
+        .kuda-header--extras {
+          display: none !important;
+        }
+        .kuda-testimonial--wrap {
+          margin-top: 80px;
+        }
+        .plan-details {
+          margin-top: 25px;
+        }
+        .kuda-partner--three .partners-image:nth-child(2) {
+          margin-top: 40px;
+          order: 3;
+        }
+        .kuda-partner--three .partners-image:nth-child(2) img {
+          min-width: 120px;
+        }
+        .kuda-partners--wrap:not(.kuda-partner--three)
+          .partners-image:last-child
+          img,
+        .kuda-partners--wrap:not(.kuda-partner--three)
+          .partners-image:nth-child(2)
+          img {
+          min-width: 100px;
+        }
+        footer {
+          margin-top: 30px;
+        }
+        .single-license img {
+          height: auto;
+          width: 100%;
+        }
+        .kuda-mobile--get {
+          display: flex !important;
+        }
+        .kuda-footer {
+          margin-bottom: 100px !important;
+        }
+        .kuda-main--wrap {
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 20px;
+          max-width: 360px;
+        }
+        .kuda-illustration--center .isImage,
+        .kuda-illustration--center img {
+          display: block;
+          height: 100%;
+          margin: 0 auto;
+          max-width: 320px !important;
+          width: 100%;
+        }
+        .kuda-team--member {
+          height: auto;
+          max-width: 150px;
+          width: calc(100% - 10px);
+        }
+        .kuda-profile--wrap:not(:last-child) {
+          margin-right: 15px;
+        }
+        .inner-spotlight--heading {
+          padding-bottom: 40px;
+        }
+        .kuda-disclaimer--section {
+          margin-top: 10px;
+        }
+        .kuda-spacing--inner {
+          margin-top: 50px;
+        }
+        .kuda-table {
+          -ms-overflow-style: none;
+          overflow-x: scroll;
+          scrollbar-width: none;
+        }
+        .kuda-table table {
+          min-width: max-content;
+        }
+        .kuda-table::-webkit-scrollbar {
+          display: none;
+        }
+        .kuda-disclaimer--section .kuda-section--heading {
+          font-size: 1.4rem !important;
+          line-height: 1.45;
+        }
+        .is-mobile-legal .kuda-spacing--inner {
+          margin-top: 15px;
+        }
+        .is-mobile-legal .bottom--spacing,
+        .title-bottom--spacing {
+          margin-bottom: 10px;
+        }
+        .kuda-phone--illustration img {
+          height: auto !important;
+          margin: auto;
+          position: relative;
+          top: -1%;
+          width: calc(100% - 55px) !important;
+        }
+        .panel__label {
+          margin-bottom: 10px;
+        }
+        .panel__content {
+          padding-bottom: 15px;
+        }
+        .kuda-single--press {
+          margin-bottom: 20px;
+          max-width: 100%;
+        }
+        .kuda-single--press:last-child {
+          margin-bottom: 0;
+        }
+        .kuda-single--protection {
+          margin-bottom: 35px;
+          max-width: 100%;
+        }
+        .kuda-single--protection:last-child {
+          margin-bottom: 0;
+        }
+        .kuda-press--image {
+          height: 170px;
+        }
+        .hasAnimation {
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 340px;
+        }
+        .kuda-section--illustration > [aria-label="animation"] {
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 320px;
+        }
+        .kuda-main--wrap {
+          display: flex;
+          flex-direction: column;
+        }
+        .kuda-section--illustration img,
+        .kuda-section--illustration img {
+          width: 100% !important;
+        }
+        body.cookie-init .kuda-cookie--badge {
+          border: 0;
+          border-radius: 0;
+          position: fixed;
+          top: 0 !important;
+          width: 100%;
+          z-index: 99;
+        }
+        body.cookie-init .kuda-cookie--badge p {
+          white-space: normal !important;
+        }
+        body.cookie-init {
+          margin-top: 59px;
+        }
+        body.cookie-init .kuda-header {
+          top: 58px;
+        }
+        body.cookie-init .kuda-cookie--badge > * {
+          position: relative;
+          top: -1.3px;
+        }
+        .kuda-cookie--badge span {
+          height: 35px;
+        }
+        .kuda-entry--inner > div > .kuda-main--wrap {
+          margin-top: 10px;
+        }
+        .kuda-ambassador > img {
+          height: auto;
+          width: 100%;
+        }
+        .kuda-social--li img {
+          height: 45px;
+          width: 45px;
+        }
+        .bottom-spacer--lg {
+          margin-bottom: 20px;
+        }
+        .celebrating-sections .kuda-section--illustration img,
+        .kuda-section--illustration img {
+          margin-bottom: 30px !important;
+          margin-top: 0 !important;
+        }
+        .celebrating-sections .kuda-section--wrap {
+          align-items: center;
+        }
+        .kuda-qr--wrap {
+          display: none !important;
+        }
+        .kuda-view-jobs {
+          display: flex;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .kuda-app--licenses.bottom--spacing {
+          margin-bottom: 0;
+        }
+        .mobile-only {
+          display: flex;
+          margin-top: 10px;
+        }
+        .isCentered .kuda-entry--inner {
+          padding-bottom: 65px;
+          padding-top: 20px;
+        }
+        .top--spacing--md {
+          margin-top: 25px;
+        }
+        .bottom--spacing--md {
+          margin-bottom: 25px;
+        }
+        .bottom--spacing--lg {
+          margin-bottom: 65px;
+        }
+        .desktop-only {
+          display: none;
+        }
+        .kuda--heading {
+          margin-bottom: 40px;
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 300px;
+        }
+        .block-item--icon svg {
+          height: auto;
+          width: 70px;
+        }
+        .kuda-protection--heading {
+          font-size: 1.7rem;
+        }
+        .block-item--icon {
+          margin-bottom: 28px;
+        }
+        .careers-h1 {
+          font-size: 32px;
+          font-weight: 900;
+        }
+        .careers-h2 {
+          font-size: 28px;
+          font-weight: 900;
+        }
+        .kuda-values-grid {
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+        }
+        .kuda-values-grid-item {
+          height: 336px;
+          max-width: 331px;
+          width: 100%;
+        }
+        .kuda-values-grid-item p {
+          font-size: 13px !important;
+        }
+        .kuda-values-img2 {
+          top: -5px;
+        }
+        .kuda-values-img4 {
+          height: 168px;
+          left: 140px;
+          top: 46px;
+          transform: rotate(275deg);
+        }
+        .kuda-values-img6 {
+          height: 167px;
+          left: 174px;
+          top: 45px;
+        }
+        .kuda-values-img7 {
+          bottom: 22px;
+          left: 91px;
+        }
+        .kuda-values-img7-1 {
+          left: -4px;
+        }
+        .kuda-values-img8-1 {
+          bottom: 339px;
+          position: relative;
+          right: 20px;
+        }
+        .kuda-values-img8 {
+          bottom: 1px;
+          height: 154px;
+          left: 165px;
+          position: relative;
+          z-index: 1;
+        }
+        .kuda-value-subheader {
+          margin-bottom: 48px;
+        }
+        .faq-question p {
+          font-size: 15px;
+          max-width: 265px;
+          width: 100%;
+        }
+        .summary-top .career-card {
+          max-width: none;
+        }
+        .career-noMarginTop {
+          margin-top: -56px;
+        }
+        .career-header-padding {
+          padding-top: 38px;
+        }
+        .career-ceo-message {
+          margin-bottom: 32px;
+          max-width: 300px;
+          width: 100%;
+        }
+        .career-ceo-message p {
+          font-size: 14px !important;
+        }
+        .careers-mb-mobile {
+          margin-bottom: 12px;
+        }
+        .careers-mb2-mobile {
+          margin-bottom: 24px;
+        }
+        .careers-mt-mobile {
+          margin-top: 48px;
+        }
+        .header-background {
+          height: 630px;
+        }
+        .card-text-mobile {
+          font-size: 13px !important;
+        }
+        .card-text-mobile1 {
+          font-size: 15px !important;
+        }
+        .careers-jobs-header {
+          font-size: 32px;
+        }
+        .careers-p-mobile {
+          font-size: 16px;
+        }
+        .careers-search-bar {
+          border: none;
+          box-shadow: none;
+          flex-direction: column;
+          margin-bottom: 115px;
+          padding: 0;
+        }
+        .careers-search-input {
+          margin-bottom: 20px;
+          width: 100%;
+        }
+        .career-location-dropdown,
+        .career-type-dropdown,
+        .careers-search-input {
+          border: 1px solid #f4f4f4;
+          border-radius: 10px;
+          box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+          padding: 19px 20px;
+        }
+        .career-location-dropdown,
+        .career-type-dropdown {
+          text-align: left;
+          width: calc(50% - 5px);
+        }
+        .careers-dropdown-mobile {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+        }
+        .career-job-list {
+          flex-direction: column;
+          height: 116px;
+          justify-content: space-between;
+          padding: 16px;
+        }
+        .career-job-list-location,
+        .career-job-list-type {
+          border: none;
+          padding-left: 0;
+        }
+        .career-job-list-desc,
+        .career-job-list-location,
+        .career-job-list-type,
+        .careers-dropdown-2 {
+          width: 100%;
+        }
+        .careers-dropdown,
+        .careers-dropdown-2 {
+          top: 70px;
+        }
+        .career-tech-stack {
+          font-size: 28px;
+          margin-top: 100px;
+          padding: 32px 0;
+        }
+        .career-techstack-top {
+          margin-top: 31px;
+          max-width: 290px;
+          width: 100%;
+        }
+        .career-techstack-bottom {
+          margin-top: 24px;
+          max-width: 308px;
+          width: 100%;
+        }
+        .stack-1 {
+          max-width: 40px;
+        }
+        .stack-1,
+        .stack-2 {
+          height: 20px;
+          width: 100%;
+        }
+        .stack-2 {
+          max-width: 57px;
+        }
+        .careers-video-container {
+          height: 175px;
+          margin-top: 48px;
+          width: 313px;
+        }
+        .careers-video-header {
+          font-size: 20px;
+          margin: 100px 0 10px;
+        }
+        .careers-office-image .office-svg,
+        .careers-office-image .office-svg img {
+          height: 221px;
+          max-width: 331px;
+        }
+        .careers-margin-top {
+          margin-top: 100px !important;
+        }
+        .careers-no-margin-top {
+          margin-top: 0;
+        }
+        .careers-video-text-container p {
+          max-width: 293px;
+          width: 100%;
+        }
+        .careers-picture-text-container p {
+          max-width: 311px;
+          width: 100%;
+        }
+        .careers-bottom-text {
+          margin-top: 100px;
+          padding: 0;
+        }
+        .business-centered-header {
+          min-height: 650px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 60px;
+        }
+      }
+      @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        html {
+          font-size: 14.5px;
+        }
+        .kuda-header--wrap {
+          padding-left: 40px;
+          padding-right: 40px;
+        }
+        .kuda-brand img {
+          height: 18px;
+          width: auto;
+        }
+        .global-menu--modal {
+          padding-right: 20px;
+        }
+        .kuda--business-illustration {
+          transform: scale(0.8);
+        }
+        .business-text-wrap {
+          padding-left: 20px;
+        }
+        .careers-kuda-main--wrap,
+        .kuda-view-jobs {
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .careers-kuda-main--wrap {
+          margin-bottom: 20px;
+          margin-top: 40px;
+        }
+        .kuda-main--wrap .careers-text-center {
+          text-align: center !important;
+        }
+        .careers-iillustration-margin {
+          display: flex !important;
+          margin-bottom: 50px;
+          margin-top: 20px;
+        }
+        .career-tech-stack {
+          padding-left: 30px;
+          padding-right: 30px;
+        }
+        .careers-video-container {
+          height: 400px;
+          margin-top: 48px;
+          width: 715px;
+        }
+        .kuda-values-grid {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+        .kuda-values-grid-item {
+          height: 336px;
+          max-width: 331px;
+          width: 100%;
+        }
+        .kuda-values-grid-item p {
+          font-size: 13px !important;
+        }
+        .kuda-values-img2 {
+          top: -5px;
+        }
+        .kuda-values-img4 {
+          height: 168px;
+          left: 140px;
+          top: 46px;
+          transform: rotate(275deg);
+        }
+        .kuda-values-img6 {
+          height: 167px;
+          left: 174px;
+          top: 45px;
+        }
+        .kuda-values-img7 {
+          bottom: 22px;
+          left: 91px;
+        }
+        .kuda-values-img7-1 {
+          left: -4px;
+        }
+        .kuda-values-img8-1 {
+          bottom: 339px;
+          position: relative;
+          right: 20px;
+        }
+        .kuda-values-img8 {
+          bottom: 256px;
+          height: 154px;
+          left: 165px;
+          position: relative;
+          z-index: 1;
+        }
+      }
+      @media only screen and (max-width: 575px) {
+        .kuda-transaction--tabs {
+          margin-left: -20px;
+          margin-right: -20px;
+          overflow-y: hidden;
+        }
+        .kuda-section--business-illustration img {
+          height: auto !important;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 50px;
+          max-width: 350px;
+          width: 100%;
+        }
+      }
+      @media only screen and (min-width: 768px) {
+        .kuda-gifts-section {
+          width: 33%;
+        }
+        .kuda-plan--wrap {
+          margin-bottom: -2.5%;
+        }
+        .business-home-fold,
+        .home-fold {
+          display: flex;
+          min-height: 635px;
+        }
+        .home-fold > div {
+          width: 100%;
+        }
+        .blue-cta {
+          background-color: #40196d;
+          padding: 10% 88px;
+        }
+        .mobile-only {
+          display: none !important;
+        }
+        .global-menu--modal {
+          bottom: auto;
+          left: auto;
+          margin-right: 0;
+          right: 40px;
+          top: -50px !important;
+        }
+      }
+      @media only screen and (max-width: 320px) {
+        body,
+        html {
+          font-size: 13px;
+        }
+        .kuda-header--wrap,
+        .kuda-preview,
+        .modal-content .footer .container {
+          padding-left: 14px;
+          padding-right: 14px;
+        }
+        .kuda-cta {
+          font-size: 13px;
+          height: 44px;
+        }
+        .modal-content {
+          padding-bottom: 25px;
+          padding-top: 25px;
+        }
+      }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        img.kuda--business-illustration {
+          transform: scale(0.7);
+        }
+        .publication-image img {
+          max-width: 80%;
+        }
+      }
+      @media only screen and (max-height: 760px) {
+        .modal-backdrop {
+          display: block;
+          overflow-y: auto;
+        }
+        .modal > .modal {
+          display: flex;
+        }
+        .modal-backdrop .modal-content {
+          margin: auto;
+        }
+      }
+      @media only screen and (min-width: 481px) and (max-width: 767px) {
+        .hasAnimation,
+        .kuda-section--illustration > [aria-label="animation"] {
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 420px;
+        }
+        .kuda-illustration--center .isImage,
+        .kuda-illustration--center img {
+          max-width: 420px !important;
+          width: 100%;
+        }
+      }
+      @media only screen and (min-width: 992px) and (max-width: 1024px) {
+        .kuda-cta-dark-section-demo .biz-float--bottom img {
+          max-width: 380px;
+        }
+      }
+      @media only screen and (min-width: 1025px) and (max-width: 1199px) {
+        .careers-kuda-main--wrap {
+          padding-left: 32px;
+        }
+      }
+      @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        .card-main--heading {
+          font-size: 1.1rem;
+        }
+      }
+      @media only screen and (max-width: 375px) {
+        body,
+        html {
+          font-size: 13px;
+        }
+      }
+      @media only screen and (min-width: 768px) and (max-width: 1299px) {
+        .kuda-menu--wrap {
+          margin-left: 10%;
+        }
+        .kuda-nav--menu {
+          margin-right: 45px;
+        }
+        .kuda-header--wrap .kuda-cta,
+        .kuda-header--wrap .kuda-cta-outline {
+          margin-left: 35px;
+        }
+      }
+      @media only screen and (min-width: 768px) and (max-width: 1440px) and (max-height: 798px) {
+        body,
+        html {
+          font-size: 15px !important;
+        }
+        .kuda-preview {
+          padding: 48px 40px 60px;
+        }
+        .kuda-header {
+          height: 65px;
+        }
+        .kuda-preview {
+          margin-top: 65px;
+        }
+        .kuda-main--wrap {
+          max-width: 396px;
+        }
+        .kuda-section--58 {
+          width: 52%;
+        }
+        .kuda-section--42 {
+          width: 48%;
+        }
+        .kuda-header--wrap .kuda-cta,
+        .kuda-header--wrap .kuda-cta-outline {
+          font-size: 14px;
+          height: 43px;
+        }
+        .kuda-cta {
+          font-size: 15px;
+        }
+        .kuda-brand img {
+          height: 18px;
+          width: auto;
+        }
+        .kuda-nav--menu {
+          margin-right: 42px;
+        }
+        .business-home-fold,
+        .home-fold {
+          min-height: 555px;
+        }
+      }
+      @media only screen and (min-width: 768px) and (max-width: 1280px) and (max-height: 698px) {
+        body,
+        html {
+          font-size: 13px !important;
+        }
+        .kuda-preview {
+          padding: 40px 40px 55px;
+        }
+        .kuda-header {
+          height: 58px;
+        }
+        .kuda-preview {
+          margin-top: 58px;
+        }
+        .kuda-main--wrap {
+          max-width: 344px;
+        }
+        .kuda-section--58 {
+          width: 52%;
+        }
+        .kuda-section--42 {
+          width: 48%;
+        }
+        .kuda-header--wrap .kuda-cta,
+        .kuda-header--wrap .kuda-cta-outline {
+          font-size: 12.5px;
+          height: 39px;
+          min-width: 115px;
+        }
+        .kuda-cta,
+        .kuda-cta-outline {
+          font-size: 12.5px;
+          height: 42px;
+        }
+        .kuda-nav--menu {
+          margin-right: 42px;
+        }
+        .container {
+          max-width: 991px;
+        }
+        .kuda-entry--inner:not(.kuda-cta--section) {
+          min-height: 440px;
+        }
+        .card-icon--spacing img {
+          height: 30px;
+          width: 30px;
+        }
+        .kuda-section--illustration .your-money--illustration,
+        .kuda-section--illustration img.kuda-phoneDebit--illustration,
+        .kuda-section--illustration img {
+          max-width: 400px;
+        }
+        .kuda-section--wrap {
+          max-width: 315px;
+        }
+        .kuda-cta--section {
+          padding-left: 65px;
+          padding-right: 65px;
+        }
+        .cta-business-illustration img,
+        .cta-illustration img {
+          min-width: 388px;
+        }
+        .kuda-footer--conditions p {
+          font-size: 11px;
+        }
+        .kuda-brand img {
+          height: 16px;
+          width: auto;
+        }
+        .card-icon--spacing {
+          margin-bottom: 12px;
+        }
+        .kuda-illustration--center .isImage,
+        .kuda-illustration--center img {
+          max-width: 430px;
+        }
+        .kuda-section--illustration img,
+        .kuda-section--illustration img {
+          max-width: 360px;
+        }
+        .kuda-menu--wrap {
+          margin-left: 8%;
+        }
+        .kuda-nav--menu {
+          margin-right: 36px;
+        }
+        .dropDown:not(.global-drop) img {
+          height: 5px;
+          width: auto;
+        }
+        .learn-more {
+          margin-top: 20px;
+        }
+        .card-main--heading {
+          font-size: 1.25rem;
+          margin-bottom: 23px;
+        }
+        .business-home-fold,
+        .home-fold {
+          min-height: 469px;
+        }
+      }
+      .mobile-container .kuda-footer--col {
+        margin-right: 0;
+        margin-top: 30px !important;
+        width: calc(50% - 15px) !important;
+      }
+      .kuda-mobile--brand {
+        align-items: center;
+        background-color: #fff;
+        display: flex;
+        height: 64px;
+        padding: 20px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 9;
+      }
+      .kuda-mobile--navWrap {
+        animation: slide-in-out 0.6s cubic-bezier(0.455, 0.03, 0, 1) forwards;
+        background-color: #fff;
+        opacity: 0;
+        overflow-y: scroll;
+        padding: 0 0 20px 20px;
+        position: absolute;
+        top: 108px;
+        width: 100%;
+      }
+      .mobile-container .kuda-footer--col ul {
+        width: auto;
+      }
+      .mobile-container .kuda-footer--menu li {
+        font-size: 1rem;
+      }
+      .mobile-container .footer-header {
+        font-size: 1.15rem;
+      }
+      .kuda-menu--actions {
+        animation: slide-in-out 0.6s cubic-bezier(0.455, 0.03, 0, 1) forwards;
+        background-color: #fff;
+        opacity: 0;
+        padding: 20px;
+        position: fixed;
+        top: 50px;
+        width: 100%;
+        z-index: 9;
+      }
+      .mobile-container .kuda-footer--col:nth-child(2n) {
+        margin-left: auto;
+        padding-right: 0;
+      }
+      .mobile-container .careers-mobile--menu {
+        margin-left: 0 !important;
+      }
+      .mobile-container .kuda-cta {
+        font-size: 13px;
+        height: 40px;
+      }
+      .mobile-container .kuda-footer--nav {
+        width: 100%;
+      }
+      .mobile-container .kuda-company--column ul {
+        margin-top: 21px !important;
+      }
+      .mobile-container .kuda-footer--menu {
+        margin-top: 15px;
+      }
+      .kuda-company--column .kuda-footer--menu li {
+        margin-bottom: 26px;
+      }
+      @media only screen and (min-width: 1025px) and (max-width: 1280px) {
+        .kuda-cta-dark-section-demo .biz-float--bottom img {
+          max-width: 400px;
+        }
+      }
+      @media only screen and (min-width: 992px) {
+        .kuda-hamburger {
+          display: none !important;
+        }
+        .text-lg-left {
+          text-align: left !important;
+        }
+        .kuda-mobile--menu {
+          display: none !important;
+        }
+        .f-md-16 {
+          font-size: 16px !important;
+          line-height: 20px;
+        }
+        .leading-md-9 {
+          line-height: 2.25rem !important;
+        }
+        .leading-md-6 {
+          line-height: 26px !important;
+        }
+      }
+      @media only screen and (min-width: 768px) and (max-width: 1440px) and (max-height: 800px) {
+        body,
+        html {
+          font-size: 14px !important;
+        }
+        .kuda-cookie--badge span {
+          height: 32px;
+        }
+        .kuda-cookie--badge {
+          height: 50px;
+        }
+        .kuda-full--section .kuda-section--wrap {
+          max-width: 380px;
+        }
+      }
+      @media only screen and (max-width: 525px) {
+        .global-menu--modal {
+          height: 100vh !important;
+          width: 100vw !important;
+        }
+        .kuda-global--menu--mobile {
+          background: none;
+          border: none;
+          border-radius: 5px;
+          box-shadow: none;
+          overflow: hidden;
+          z-index: 2000 !important;
+        }
+        .global-menu--wrap--mobile {
+          background: #eff1ff;
+          bottom: 0;
+          max-width: 100vw;
+          position: fixed;
+          z-index: 3000;
+        }
+        .kuda-dropdown--menu--mobile {
+          margin: 12px auto 0;
+        }
+      }
+      @media only screen and (min-width: 526px) {
+        .position-relative {
+          position: relative;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        .global-display--wrap--mobile {
+          display: none;
+        }
+      }
+      @media only screen and (max-width: 767px) {
+        .business-text-wrap {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        .label {
+          margin-bottom: 0;
+        }
+        .content-section {
+          padding-bottom: 0;
+        }
+        .policy-sidebar {
+          padding: 70px 40px 63px 54px;
+          position: relative;
+          top: 0;
+          width: auto;
+          z-index: 9;
+        }
+        .mobile-sidebar {
+          padding: 20px !important;
+        }
+        .accordion {
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 50px;
+          max-width: none;
+        }
+        .sidebar-opacity {
+          margin-top: 40px;
+        }
+        .text-lg-biz {
+          font-size: 1.75rem !important;
+          line-height: 1.15;
+        }
+        .show-mobile {
+          display: flex !important;
+        }
+        .business-centered-header {
+          padding-top: 60px !important;
+        }
+      }
+      @media only screen and (max-width: 991px) {
+        .kuda-cta-dark-section {
+          height: auto !important;
+        }
+        .kuda-mobile--navWrap.show-options {
+          top: 50px;
+        }
+        .menu-link {
+          align-items: center;
+          display: flex;
+          flex-direction: row;
+          padding-bottom: 14px;
+        }
+        .policy-sidebar {
+          padding: 70px 33px 0;
+          position: relative;
+          right: 0;
+          top: 0;
+          width: auto;
+        }
+        .mobile-sidebar {
+          padding: 20px !important;
+        }
+        .accordion {
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 50px;
+          max-width: none;
+        }
+        .general-style {
+          margin-left: auto;
+          width: auto;
+        }
+        .w-70 {
+          width: auto;
+        }
+        .inner__text,
+        .panelled[aria-expanded="true"] .content-section {
+          max-width: none;
+        }
+        .cta-hide,
+        .tab-item {
+          display: none;
+        }
+        .no-padding {
+          margin-top: 0;
+          max-width: inherit;
+          padding: 0 40px;
+        }
+        .back-page {
+          display: flex;
+        }
+        .text-color {
+          color: #40196d;
+        }
+        .no-pad {
+          margin-top: 0;
+          max-width: inherit;
+        }
+        .display {
+          display: block !important;
+        }
+        .pad-bottom {
+          padding-bottom: 0;
+        }
+        .legal-left {
+          margin-top: 30px;
+          text-align: left;
+        }
+        .no-margins {
+          margin-left: 0 !important;
+          max-width: inherit !important;
+        }
+        .d-flex {
+          display: contents;
+        }
+        .kuda-illustration--center .isImage,
+        .kuda-illustration--center img {
+          max-height: 435px;
+          max-width: 475px;
+        }
+        .is-mobile-legal {
+          min-height: 100% !important;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        .is-mobile-legal .kuda-table table td,
+        .is-mobile-legal .kuda-table table th {
+          line-height: 1.5;
+        }
+        .is-mobile-legal .label-mobile {
+          border-radius: 0;
+        }
+        .is-mobile-legal .panelled-moble:first-child .label-mobile {
+          border-radius: 5px 5px 0 0 !important;
+        }
+        .is-mobile-legal .panelled-moble:last-child .label-mobile {
+          border-radius: 0 0 5px 5px !important;
+        }
+        .is-mobile-legal .panelled-moble:only-child .label-mobile {
+          border-radius: 5px !important;
+        }
+        .is-mobile-legal .avatar-wrap {
+          display: flex !important;
+          height: auto !important;
+          width: auto !important;
+        }
+        .is-mobile-legal
+          .panelled-moble:not(:first-child):not(:last-child)
+          .label-mobile {
+          border-radius: 0 !important;
+        }
+        .business-header-title {
+          font-size: 32px;
+          line-height: 40px;
+          margin-bottom: 25px;
+        }
+        .business-header-subtext {
+          font-size: 16px;
+          line-height: 24px;
+          margin-bottom: 25px;
+        }
+        .business-header-container {
+          margin-bottom: 55px;
+        }
+      }
+      @media screen and (max-width: 425px) {
+        .coming-soon--downloads {
+          gap: 10px;
+        }
+        .coming-soon--downloads > .app-store img {
+          width: 95.73px;
+        }
+        .coming-soon--downloads > .google-play img {
+          width: 108px;
+        }
+        .coming-soon--downloads > .web img {
+          width: 105px;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        a.dark-cta.cta_button {
+          font-size: 14px;
+          padding: 16px 24px;
+        }
+        .business-centered-header {
+          min-height: 65vh;
+        }
+      }
+      @media only screen and (max-height: 730px) {
+        .react-datepicker-popper {
+          bottom: 0 !important;
+          position: absolute !important;
+          top: 0 !important;
+          transform: translate3d(0, 53px, 0) !important;
+          -webkit-transform: translate3d(0, 53px, 0) !important;
+          -moz-transform: translate3d(0, 53px, 0) !important;
+          -ms-transform: translate3d(0, 53px, 0) !important;
+          -o-transform: translate3d(0, 53px, 0) !important;
+        }
+      }
+      @keyframes modal-video {
+        0% {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      @keyframes modal-video-inner {
+        0% {
+          transform: translateY(100px);
+        }
+        to {
+          transform: translate(0);
+        }
+      }
+      .react-datepicker__month-read-view--down-arrow,
+      .react-datepicker__month-year-read-view--down-arrow,
+      .react-datepicker__navigation-icon:before,
+      .react-datepicker__year-read-view--down-arrow {
+        border-color: #ccc;
+        border-style: solid;
+        border-width: 3px 3px 0 0;
+        content: "";
+        display: block;
+        height: 9px;
+        position: absolute;
+        top: 6px;
+        width: 9px;
+      }
+      .react-datepicker-wrapper {
+        border: 0;
+        display: inline-block;
+        padding: 0;
+      }
+      .react-datepicker {
+        background-color: #fff;
+        border: 1px solid #aeaeae;
+        border-radius: 0.3rem;
+        color: #000;
+        display: inline-block;
+        font-family: Helvetica Neue, helvetica, arial, sans-serif;
+        font-size: 0.8rem;
+        line-height: normal;
+        position: relative;
+      }
+      .react-datepicker--time-only .react-datepicker__time-container {
+        border-left: 0;
+      }
+      .react-datepicker--time-only .react-datepicker__time,
+      .react-datepicker--time-only .react-datepicker__time-box {
+        border-bottom-left-radius: 0.3rem;
+        border-bottom-right-radius: 0.3rem;
+      }
+      .react-datepicker-popper {
+        line-height: 0;
+        z-index: 1;
+      }
+      .react-datepicker-popper .react-datepicker__triangle {
+        stroke: #aeaeae;
+      }
+      .react-datepicker-popper[data-placement^="bottom"]
+        .react-datepicker__triangle {
+        fill: #f0f0f0;
+        color: #f0f0f0;
+      }
+      .react-datepicker-popper[data-placement^="top"]
+        .react-datepicker__triangle {
+        fill: #fff;
+        color: #fff;
+      }
+      .react-datepicker__header {
+        background-color: #f0f0f0;
+        border-bottom: 1px solid #aeaeae;
+        border-top-left-radius: 0.3rem;
+        padding: 8px 0;
+        position: relative;
+        text-align: center;
+      }
+      .react-datepicker__header--time {
+        padding-bottom: 8px;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      .react-datepicker__header--time:not(
+          .react-datepicker__header--time--only
+        ) {
+        border-top-left-radius: 0;
+      }
+      .react-datepicker__header:not(
+          .react-datepicker__header--has-time-select
+        ) {
+        border-top-right-radius: 0.3rem;
+      }
+      .react-datepicker__month-dropdown-container--scroll,
+      .react-datepicker__month-dropdown-container--select,
+      .react-datepicker__month-year-dropdown-container--scroll,
+      .react-datepicker__month-year-dropdown-container--select,
+      .react-datepicker__year-dropdown-container--scroll,
+      .react-datepicker__year-dropdown-container--select {
+        display: inline-block;
+        margin: 0 15px;
+      }
+      .react-datepicker-time__header,
+      .react-datepicker-year-header,
+      .react-datepicker__current-month {
+        color: #000;
+        font-size: 0.944rem;
+        font-weight: 700;
+        margin-top: 0;
+      }
+      .react-datepicker-time__header {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .react-datepicker__navigation {
+        align-items: center;
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        height: 32px;
+        justify-content: center;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        text-align: center;
+        text-indent: -999em;
+        top: 2px;
+        width: 32px;
+        z-index: 1;
+      }
+      .react-datepicker__navigation--previous {
+        left: 2px;
+      }
+      .react-datepicker__navigation--next {
+        right: 2px;
+      }
+      .react-datepicker__navigation--next--with-time:not(
+          .react-datepicker__navigation--next--with-today-button
+        ) {
+        right: 85px;
+      }
+      .react-datepicker__navigation--years {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 0;
+      }
+      .react-datepicker__navigation--years-previous {
+        top: 4px;
+      }
+      .react-datepicker__navigation--years-upcoming {
+        top: -4px;
+      }
+      .react-datepicker__navigation:hover :before {
+        border-color: #a6a6a6;
+      }
+      .react-datepicker__navigation-icon {
+        font-size: 20px;
+        position: relative;
+        top: -1px;
+        width: 0;
+      }
+      .react-datepicker__navigation-icon--next {
+        left: -2px;
+      }
+      .react-datepicker__navigation-icon--next:before {
+        left: -7px;
+        transform: rotate(45deg);
+      }
+      .react-datepicker__navigation-icon--previous {
+        right: -2px;
+      }
+      .react-datepicker__navigation-icon--previous:before {
+        right: -7px;
+        transform: rotate(225deg);
+      }
+      .react-datepicker__month-container {
+        float: left;
+      }
+      .react-datepicker__year {
+        margin: 0.4rem;
+        text-align: center;
+      }
+      .react-datepicker__year-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 180px;
+      }
+      .react-datepicker__year .react-datepicker__year-text {
+        display: inline-block;
+        margin: 2px;
+        width: 4rem;
+      }
+      .react-datepicker__month {
+        margin: 0.4rem;
+        text-align: center;
+      }
+      .react-datepicker__month .react-datepicker__month-text,
+      .react-datepicker__month .react-datepicker__quarter-text {
+        display: inline-block;
+        margin: 2px;
+        width: 4rem;
+      }
+      .react-datepicker__input-time-container {
+        clear: both;
+        float: left;
+        margin: 5px 0 10px 15px;
+        text-align: left;
+        width: 100%;
+      }
+      .react-datepicker__input-time-container .react-datepicker-time__caption,
+      .react-datepicker__input-time-container
+        .react-datepicker-time__input-container {
+        display: inline-block;
+      }
+      .react-datepicker__input-time-container
+        .react-datepicker-time__input-container
+        .react-datepicker-time__input {
+        display: inline-block;
+        margin-left: 10px;
+      }
+      .react-datepicker__input-time-container
+        .react-datepicker-time__input-container
+        .react-datepicker-time__input
+        input {
+        width: auto;
+      }
+      .react-datepicker__input-time-container
+        .react-datepicker-time__input-container
+        .react-datepicker-time__input
+        input[type="time"]::-webkit-inner-spin-button,
+      .react-datepicker__input-time-container
+        .react-datepicker-time__input-container
+        .react-datepicker-time__input
+        input[type="time"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      .react-datepicker__input-time-container
+        .react-datepicker-time__input-container
+        .react-datepicker-time__input
+        input[type="time"] {
+        -moz-appearance: textfield;
+      }
+      .react-datepicker__input-time-container
+        .react-datepicker-time__input-container
+        .react-datepicker-time__delimiter {
+        display: inline-block;
+        margin-left: 5px;
+      }
+      .react-datepicker__time-container {
+        border-left: 1px solid #aeaeae;
+        float: right;
+        width: 85px;
+      }
+      .react-datepicker__time-container--with-today-button {
+        border: 1px solid #aeaeae;
+        border-radius: 0.3rem;
+        display: inline;
+        position: absolute;
+        right: -87px;
+        top: 0;
+      }
+      .react-datepicker__time-container .react-datepicker__time {
+        background: #fff;
+        border-bottom-right-radius: 0.3rem;
+        position: relative;
+      }
+      .react-datepicker__time-container
+        .react-datepicker__time
+        .react-datepicker__time-box {
+        border-bottom-right-radius: 0.3rem;
+        margin: 0 auto;
+        overflow-x: hidden;
+        text-align: center;
+        width: 85px;
+      }
+      .react-datepicker__time-container
+        .react-datepicker__time
+        .react-datepicker__time-box
+        ul.react-datepicker__time-list {
+        box-sizing: content-box;
+        height: calc(195px + 0.85rem);
+        list-style: none;
+        margin: 0;
+        overflow-y: scroll;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+      }
+      .react-datepicker__time-container
+        .react-datepicker__time
+        .react-datepicker__time-box
+        ul.react-datepicker__time-list
+        li.react-datepicker__time-list-item {
+        height: 30px;
+        padding: 5px 10px;
+        white-space: nowrap;
+      }
+      .react-datepicker__time-container
+        .react-datepicker__time
+        .react-datepicker__time-box
+        ul.react-datepicker__time-list
+        li.react-datepicker__time-list-item:hover {
+        background-color: #f0f0f0;
+        cursor: pointer;
+      }
+      .react-datepicker__time-container
+        .react-datepicker__time
+        .react-datepicker__time-box
+        ul.react-datepicker__time-list
+        li.react-datepicker__time-list-item--selected {
+        background-color: #216ba5;
+        color: #fff;
+        font-weight: 700;
+      }
+      .react-datepicker__time-container
+        .react-datepicker__time
+        .react-datepicker__time-box
+        ul.react-datepicker__time-list
+        li.react-datepicker__time-list-item--selected:hover {
+        background-color: #216ba5;
+      }
+      .react-datepicker__time-container
+        .react-datepicker__time
+        .react-datepicker__time-box
+        ul.react-datepicker__time-list
+        li.react-datepicker__time-list-item--disabled {
+        color: #ccc;
+      }
+      .react-datepicker__time-container
+        .react-datepicker__time
+        .react-datepicker__time-box
+        ul.react-datepicker__time-list
+        li.react-datepicker__time-list-item--disabled:hover {
+        background-color: transparent;
+        cursor: default;
+      }
+      .react-datepicker__week-number {
+        color: #ccc;
+        display: inline-block;
+        line-height: 1.7rem;
+        margin: 0.166rem;
+        text-align: center;
+        width: 1.7rem;
+      }
+      .react-datepicker__week-number.react-datepicker__week-number--clickable {
+        cursor: pointer;
+      }
+      .react-datepicker__week-number.react-datepicker__week-number--clickable:not(
+          .react-datepicker__week-number--selected,
+          .react-datepicker__week-number--keyboard-selected
+        ):hover {
+        background-color: #f0f0f0;
+        border-radius: 0.3rem;
+      }
+      .react-datepicker__week-number--selected {
+        background-color: #216ba5;
+        border-radius: 0.3rem;
+        color: #fff;
+      }
+      .react-datepicker__week-number--selected:hover {
+        background-color: #1d5d90;
+      }
+      .react-datepicker__week-number--keyboard-selected {
+        background-color: #2a87d0;
+        border-radius: 0.3rem;
+        color: #fff;
+      }
+      .react-datepicker__week-number--keyboard-selected:hover {
+        background-color: #1d5d90;
+      }
+      .react-datepicker__day-names {
+        margin-bottom: -8px;
+        white-space: nowrap;
+      }
+      .react-datepicker__week {
+        white-space: nowrap;
+      }
+      .react-datepicker__day,
+      .react-datepicker__day-name,
+      .react-datepicker__time-name {
+        color: #000;
+        display: inline-block;
+        line-height: 1.7rem;
+        margin: 0.166rem;
+        text-align: center;
+        width: 1.7rem;
+      }
+      .react-datepicker__day,
+      .react-datepicker__month-text,
+      .react-datepicker__quarter-text,
+      .react-datepicker__year-text {
+        cursor: pointer;
+      }
+      .react-datepicker__day:hover,
+      .react-datepicker__month-text:hover,
+      .react-datepicker__quarter-text:hover,
+      .react-datepicker__year-text:hover {
+        background-color: #f0f0f0;
+        border-radius: 0.3rem;
+      }
+      .react-datepicker__day--today,
+      .react-datepicker__month-text--today,
+      .react-datepicker__quarter-text--today,
+      .react-datepicker__year-text--today {
+        font-weight: 700;
+      }
+      .react-datepicker__day--highlighted,
+      .react-datepicker__month-text--highlighted,
+      .react-datepicker__quarter-text--highlighted,
+      .react-datepicker__year-text--highlighted {
+        background-color: #3dcc4a;
+        border-radius: 0.3rem;
+        color: #fff;
+      }
+      .react-datepicker__day--highlighted:hover,
+      .react-datepicker__month-text--highlighted:hover,
+      .react-datepicker__quarter-text--highlighted:hover,
+      .react-datepicker__year-text--highlighted:hover {
+        background-color: #32be3f;
+      }
+      .react-datepicker__day--highlighted-custom-1,
+      .react-datepicker__month-text--highlighted-custom-1,
+      .react-datepicker__quarter-text--highlighted-custom-1,
+      .react-datepicker__year-text--highlighted-custom-1 {
+        color: #f0f;
+      }
+      .react-datepicker__day--highlighted-custom-2,
+      .react-datepicker__month-text--highlighted-custom-2,
+      .react-datepicker__quarter-text--highlighted-custom-2,
+      .react-datepicker__year-text--highlighted-custom-2 {
+        color: green;
+      }
+      .react-datepicker__day--holidays,
+      .react-datepicker__month-text--holidays,
+      .react-datepicker__quarter-text--holidays,
+      .react-datepicker__year-text--holidays {
+        background-color: #ff6803;
+        border-radius: 0.3rem;
+        color: #fff;
+        position: relative;
+      }
+      .react-datepicker__day--holidays .overlay,
+      .react-datepicker__month-text--holidays .overlay,
+      .react-datepicker__quarter-text--holidays .overlay,
+      .react-datepicker__year-text--holidays .overlay {
+        background-color: #333;
+        border-radius: 4px;
+        bottom: 100%;
+        color: #fff;
+        left: 50%;
+        opacity: 0;
+        padding: 4px;
+        position: absolute;
+        transform: translateX(-50%);
+        transition: visibility 0s, opacity 0.3s ease-in-out;
+        visibility: hidden;
+        white-space: nowrap;
+      }
+      .react-datepicker__day--holidays:hover,
+      .react-datepicker__month-text--holidays:hover,
+      .react-datepicker__quarter-text--holidays:hover,
+      .react-datepicker__year-text--holidays:hover {
+        background-color: #cf5300;
+      }
+      .react-datepicker__day--holidays:hover .overlay,
+      .react-datepicker__month-text--holidays:hover .overlay,
+      .react-datepicker__quarter-text--holidays:hover .overlay,
+      .react-datepicker__year-text--holidays:hover .overlay {
+        opacity: 1;
+        visibility: visible;
+      }
+      .react-datepicker__day--in-range,
+      .react-datepicker__day--in-selecting-range,
+      .react-datepicker__day--selected,
+      .react-datepicker__month-text--in-range,
+      .react-datepicker__month-text--in-selecting-range,
+      .react-datepicker__month-text--selected,
+      .react-datepicker__quarter-text--in-range,
+      .react-datepicker__quarter-text--in-selecting-range,
+      .react-datepicker__quarter-text--selected,
+      .react-datepicker__year-text--in-range,
+      .react-datepicker__year-text--in-selecting-range,
+      .react-datepicker__year-text--selected {
+        background-color: #216ba5;
+        border-radius: 0.3rem;
+        color: #fff;
+      }
+      .react-datepicker__day--in-range:hover,
+      .react-datepicker__day--in-selecting-range:hover,
+      .react-datepicker__day--selected:hover,
+      .react-datepicker__month-text--in-range:hover,
+      .react-datepicker__month-text--in-selecting-range:hover,
+      .react-datepicker__month-text--selected:hover,
+      .react-datepicker__quarter-text--in-range:hover,
+      .react-datepicker__quarter-text--in-selecting-range:hover,
+      .react-datepicker__quarter-text--selected:hover,
+      .react-datepicker__year-text--in-range:hover,
+      .react-datepicker__year-text--in-selecting-range:hover,
+      .react-datepicker__year-text--selected:hover {
+        background-color: #1d5d90;
+      }
+      .react-datepicker__day--keyboard-selected,
+      .react-datepicker__month-text--keyboard-selected,
+      .react-datepicker__quarter-text--keyboard-selected,
+      .react-datepicker__year-text--keyboard-selected {
+        background-color: #bad9f1;
+        border-radius: 0.3rem;
+        color: #000;
+      }
+      .react-datepicker__day--keyboard-selected:hover,
+      .react-datepicker__month-text--keyboard-selected:hover,
+      .react-datepicker__quarter-text--keyboard-selected:hover,
+      .react-datepicker__year-text--keyboard-selected:hover {
+        background-color: #1d5d90;
+      }
+      .react-datepicker__day--in-selecting-range:not(
+          .react-datepicker__day--in-range,
+          .react-datepicker__month-text--in-range,
+          .react-datepicker__quarter-text--in-range,
+          .react-datepicker__year-text--in-range
+        ),
+      .react-datepicker__month-text--in-selecting-range:not(
+          .react-datepicker__day--in-range,
+          .react-datepicker__month-text--in-range,
+          .react-datepicker__quarter-text--in-range,
+          .react-datepicker__year-text--in-range
+        ),
+      .react-datepicker__quarter-text--in-selecting-range:not(
+          .react-datepicker__day--in-range,
+          .react-datepicker__month-text--in-range,
+          .react-datepicker__quarter-text--in-range,
+          .react-datepicker__year-text--in-range
+        ),
+      .react-datepicker__year-text--in-selecting-range:not(
+          .react-datepicker__day--in-range,
+          .react-datepicker__month-text--in-range,
+          .react-datepicker__quarter-text--in-range,
+          .react-datepicker__year-text--in-range
+        ) {
+        background-color: rgba(33, 107, 165, 0.5);
+      }
+      .react-datepicker__month--selecting-range
+        .react-datepicker__day--in-range:not(
+          .react-datepicker__day--in-selecting-range,
+          .react-datepicker__month-text--in-selecting-range,
+          .react-datepicker__quarter-text--in-selecting-range,
+          .react-datepicker__year-text--in-selecting-range
+        ),
+      .react-datepicker__month--selecting-range
+        .react-datepicker__month-text--in-range:not(
+          .react-datepicker__day--in-selecting-range,
+          .react-datepicker__month-text--in-selecting-range,
+          .react-datepicker__quarter-text--in-selecting-range,
+          .react-datepicker__year-text--in-selecting-range
+        ),
+      .react-datepicker__month--selecting-range
+        .react-datepicker__quarter-text--in-range:not(
+          .react-datepicker__day--in-selecting-range,
+          .react-datepicker__month-text--in-selecting-range,
+          .react-datepicker__quarter-text--in-selecting-range,
+          .react-datepicker__year-text--in-selecting-range
+        ),
+      .react-datepicker__month--selecting-range
+        .react-datepicker__year-text--in-range:not(
+          .react-datepicker__day--in-selecting-range,
+          .react-datepicker__month-text--in-selecting-range,
+          .react-datepicker__quarter-text--in-selecting-range,
+          .react-datepicker__year-text--in-selecting-range
+        ),
+      .react-datepicker__year--selecting-range
+        .react-datepicker__day--in-range:not(
+          .react-datepicker__day--in-selecting-range,
+          .react-datepicker__month-text--in-selecting-range,
+          .react-datepicker__quarter-text--in-selecting-range,
+          .react-datepicker__year-text--in-selecting-range
+        ),
+      .react-datepicker__year--selecting-range
+        .react-datepicker__month-text--in-range:not(
+          .react-datepicker__day--in-selecting-range,
+          .react-datepicker__month-text--in-selecting-range,
+          .react-datepicker__quarter-text--in-selecting-range,
+          .react-datepicker__year-text--in-selecting-range
+        ),
+      .react-datepicker__year--selecting-range
+        .react-datepicker__quarter-text--in-range:not(
+          .react-datepicker__day--in-selecting-range,
+          .react-datepicker__month-text--in-selecting-range,
+          .react-datepicker__quarter-text--in-selecting-range,
+          .react-datepicker__year-text--in-selecting-range
+        ),
+      .react-datepicker__year--selecting-range
+        .react-datepicker__year-text--in-range:not(
+          .react-datepicker__day--in-selecting-range,
+          .react-datepicker__month-text--in-selecting-range,
+          .react-datepicker__quarter-text--in-selecting-range,
+          .react-datepicker__year-text--in-selecting-range
+        ) {
+        background-color: #f0f0f0;
+        color: #000;
+      }
+      .react-datepicker__day--disabled,
+      .react-datepicker__month-text--disabled,
+      .react-datepicker__quarter-text--disabled,
+      .react-datepicker__year-text--disabled {
+        color: #ccc;
+        cursor: default;
+      }
+      .react-datepicker__day--disabled:hover,
+      .react-datepicker__month-text--disabled:hover,
+      .react-datepicker__quarter-text--disabled:hover,
+      .react-datepicker__year-text--disabled:hover {
+        background-color: transparent;
+      }
+      .react-datepicker__day--disabled .overlay,
+      .react-datepicker__month-text--disabled .overlay,
+      .react-datepicker__quarter-text--disabled .overlay,
+      .react-datepicker__year-text--disabled .overlay {
+        background-color: #333;
+        border-radius: 4px;
+        bottom: 70%;
+        color: #fff;
+        left: 50%;
+        opacity: 0;
+        padding: 4px;
+        position: absolute;
+        transform: translateX(-50%);
+        transition: visibility 0s, opacity 0.3s ease-in-out;
+        visibility: hidden;
+        white-space: nowrap;
+      }
+      .react-datepicker__input-container {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+      }
+      .react-datepicker__input-container .react-datepicker__calendar-icon {
+        box-sizing: content-box;
+        padding: 0.5rem;
+        position: absolute;
+      }
+      .react-datepicker__view-calendar-icon input {
+        padding: 6px 10px 5px 25px;
+      }
+      .react-datepicker__month-read-view,
+      .react-datepicker__month-year-read-view,
+      .react-datepicker__year-read-view {
+        border: 1px solid transparent;
+        border-radius: 0.3rem;
+        position: relative;
+      }
+      .react-datepicker__month-read-view:hover,
+      .react-datepicker__month-year-read-view:hover,
+      .react-datepicker__year-read-view:hover {
+        cursor: pointer;
+      }
+      .react-datepicker__month-read-view:hover
+        .react-datepicker__month-read-view--down-arrow,
+      .react-datepicker__month-read-view:hover
+        .react-datepicker__year-read-view--down-arrow,
+      .react-datepicker__month-year-read-view:hover
+        .react-datepicker__month-read-view--down-arrow,
+      .react-datepicker__month-year-read-view:hover
+        .react-datepicker__year-read-view--down-arrow,
+      .react-datepicker__year-read-view:hover
+        .react-datepicker__month-read-view--down-arrow,
+      .react-datepicker__year-read-view:hover
+        .react-datepicker__year-read-view--down-arrow {
+        border-top-color: #b3b3b3;
+      }
+      .react-datepicker__month-read-view--down-arrow,
+      .react-datepicker__month-year-read-view--down-arrow,
+      .react-datepicker__year-read-view--down-arrow {
+        right: -16px;
+        top: 0;
+        transform: rotate(135deg);
+      }
+      .react-datepicker__month-dropdown,
+      .react-datepicker__month-year-dropdown,
+      .react-datepicker__year-dropdown {
+        background-color: #f0f0f0;
+        border: 1px solid #aeaeae;
+        border-radius: 0.3rem;
+        left: 25%;
+        position: absolute;
+        text-align: center;
+        top: 30px;
+        width: 50%;
+        z-index: 1;
+      }
+      .react-datepicker__month-dropdown:hover,
+      .react-datepicker__month-year-dropdown:hover,
+      .react-datepicker__year-dropdown:hover {
+        cursor: pointer;
+      }
+      .react-datepicker__month-dropdown--scrollable,
+      .react-datepicker__month-year-dropdown--scrollable,
+      .react-datepicker__year-dropdown--scrollable {
+        height: 150px;
+        overflow-y: scroll;
+      }
+      .react-datepicker__month-option,
+      .react-datepicker__month-year-option,
+      .react-datepicker__year-option {
+        display: block;
+        line-height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+      }
+      .react-datepicker__month-option:first-of-type,
+      .react-datepicker__month-year-option:first-of-type,
+      .react-datepicker__year-option:first-of-type {
+        border-top-left-radius: 0.3rem;
+        border-top-right-radius: 0.3rem;
+      }
+      .react-datepicker__month-option:last-of-type,
+      .react-datepicker__month-year-option:last-of-type,
+      .react-datepicker__year-option:last-of-type {
+        border-bottom-left-radius: 0.3rem;
+        border-bottom-right-radius: 0.3rem;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      .react-datepicker__month-option:hover,
+      .react-datepicker__month-year-option:hover,
+      .react-datepicker__year-option:hover {
+        background-color: #ccc;
+      }
+      .react-datepicker__month-option:hover
+        .react-datepicker__navigation--years-upcoming,
+      .react-datepicker__month-year-option:hover
+        .react-datepicker__navigation--years-upcoming,
+      .react-datepicker__year-option:hover
+        .react-datepicker__navigation--years-upcoming {
+        border-bottom-color: #b3b3b3;
+      }
+      .react-datepicker__month-option:hover
+        .react-datepicker__navigation--years-previous,
+      .react-datepicker__month-year-option:hover
+        .react-datepicker__navigation--years-previous,
+      .react-datepicker__year-option:hover
+        .react-datepicker__navigation--years-previous {
+        border-top-color: #b3b3b3;
+      }
+      .react-datepicker__month-option--selected,
+      .react-datepicker__month-year-option--selected,
+      .react-datepicker__year-option--selected {
+        left: 15px;
+        position: absolute;
+      }
+      .react-datepicker__close-icon {
+        background-color: transparent;
+        border: 0;
+        cursor: pointer;
+        display: table-cell;
+        height: 100%;
+        outline: 0;
+        padding: 0 6px 0 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        vertical-align: middle;
+      }
+      .react-datepicker__close-icon:after {
+        background-color: #216ba5;
+        border-radius: 50%;
+        color: #fff;
+        content: "×";
+        cursor: pointer;
+        display: table-cell;
+        font-size: 12px;
+        height: 16px;
+        line-height: 1;
+        padding: 2px;
+        text-align: center;
+        vertical-align: middle;
+        width: 16px;
+      }
+      .react-datepicker__close-icon--disabled {
+        cursor: default;
+      }
+      .react-datepicker__close-icon--disabled:after {
+        background-color: #ccc;
+        cursor: default;
+      }
+      .react-datepicker__today-button {
+        background: #f0f0f0;
+        border-top: 1px solid #aeaeae;
+        clear: left;
+        cursor: pointer;
+        font-weight: 700;
+        padding: 5px 0;
+        text-align: center;
+      }
+      .react-datepicker__portal {
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        z-index: 2147483647;
+      }
+      .react-datepicker__portal .react-datepicker__day,
+      .react-datepicker__portal .react-datepicker__day-name,
+      .react-datepicker__portal .react-datepicker__time-name {
+        line-height: 3rem;
+        width: 3rem;
+      }
+      @media (max-height: 550px), (max-width: 400px) {
+        .react-datepicker__portal .react-datepicker__day,
+        .react-datepicker__portal .react-datepicker__day-name,
+        .react-datepicker__portal .react-datepicker__time-name {
+          line-height: 2rem;
+          width: 2rem;
+        }
+      }
+      .react-datepicker__portal .react-datepicker-time__header,
+      .react-datepicker__portal .react-datepicker__current-month {
+        font-size: 1.44rem;
+      }
+      .react-datepicker__children-container {
+        height: auto;
+        margin: 0.4rem;
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+        width: 13.8rem;
+      }
+      .react-datepicker__aria-live {
+        border: 0;
+        clip-path: circle(0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+      }
+      .react-datepicker__calendar-icon {
+        height: 1em;
+        vertical-align: -0.125em;
+        width: 1em;
+      }

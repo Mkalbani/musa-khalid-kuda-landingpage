@@ -1,0 +1,18 @@
+<svg fill="none" height="30" viewbox="0 0 30 30" width="30">
+<circle cx="15" cy="15" fill="#FCD116" opacity="0.3" r="15"></circle>
+<mask height="16" id="cmask0_37774_3479_a" maskunits="userSpaceOnUse" style="mask-type: alpha" width="18" x="6" y="7">
+<rect fill="#E94D1E" height="15.4023" rx="3" width="16.1724" x="6.91406" y="7.29736"></rect>
+</mask>
+<g mask="url(#cmask0_37774_3479_a)">
+<g clip-path="url(#clip0_37774_3479_a)">
+<path d="M2.03125 5.89795H28.0312V23.2313H2.03125V5.89795Z" fill="#006B3F"></path>
+<path d="M2.03125 5.89795H28.0312V17.4535H2.03125V5.89795Z" fill="#FCD116"></path>
+<path d="M2.03125 5.89795H28.0312V11.6757H2.03125V5.89795Z" fill="#CE1126"></path>
+<path d="M15.0299 11.6758L16.9071 17.4536L11.9922 13.8826H18.0675L13.1527 17.4536L15.0299 11.6758Z" fill="black"></path>
+</g>
+</g>
+<defs>
+<clippath id="clip0_37774_3479_a">
+<rect fill="white" height="17.3333" transform="translate(2.03125 5.89795)" width="26"></rect>
+</clippath>
+</defs></svg>

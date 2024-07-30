@@ -1,0 +1,14 @@
+<svg fill="none" height="30" viewbox="0 0 30 30" width="30">
+<circle cx="15" cy="15" fill="#008751" opacity="0.3" r="15"></circle>
+<mask height="16" id="mask0_37774_3385_bc" maskunits="userSpaceOnUse" style="mask-type: alpha" width="18" x="6" y="7">
+<rect fill="#E94D1E" height="15.4023" rx="3" width="16.1724" x="6.91406" y="7.29712"></rect>
+</mask>
+<g mask="url(#mask0_37774_3385_bc)">
+<path d="M0.324219 4.1355H29.5134V26.0274H0.324219V4.1355Z" fill="#008751"></path>
+<path d="M11.1875 4.05444H19.2956V25.9463H11.1875V4.05444Z" fill="white"></path>
+</g>
+<defs>
+<clippath id="clip0_37774_3385_bc">
+<rect fill="white" height="21.8919" transform="translate(0.324219 4.1355)" width="29.1892"></rect>
+</clippath>
+</defs></svg>
